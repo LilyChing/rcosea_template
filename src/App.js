@@ -42,11 +42,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-      <contrainer>
         <div className='h-lvh'>test</div>
-      </contrainer>
-      {/* <div class="flex flex-row columns-6"> */}
-      <div class="columns-6 gap-2 container">
+      <div className="columns-2 lg:columns-3 xl:columns-6 gap-2 container">
         {ListItem.map((item, index) => (
           <Test key={index} item={item} />
         ))}
