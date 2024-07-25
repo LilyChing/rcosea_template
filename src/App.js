@@ -45,7 +45,7 @@ function App() {
         <div className='h-lvh'>test</div>
       <div className="columns-2 lg:columns-3 xl:columns-6 gap-2 container">
         {ListItem.map((item, index) => (
-          <Test key={index} item={item} />
+          <Test key={index} index={index} item={item} />
         ))}
       </div>
     </div>

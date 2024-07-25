@@ -2,17 +2,23 @@ import React from "react";
 import { useState } from "react";
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react"
+import ListItem from './listItem';
 
 function Test(props) {
-  //test
-  const [card, setCard] = useState({});
-  const [showCardView, setShowCardView] = useState(false);
+  const [currentIndex, setCurrentIndex] = useState(props.index);
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
-  const handleCard = (card) => {
-    setCard(card)
-    setShowCardView(true)
-  }
+  const handlePrev = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(currentIndex-1);
+    }
+  };
+  
+  const handleNext = () => {
+    if (currentIndex < ListItem.length - 1) {
+      setCurrentIndex(currentIndex+1);
+    }
+  };
 
   return (
     // <Card className="max-w-[400px]">
@@ -51,17 +57,24 @@ function Test(props) {
     </CardFooter> */}
   </Card>
     {/* pass the card object and the updater function as props from state */}
-    {/* {showCardView ? <CardView card={card} setShowCardView={setShowCardView}/> : null} */}
     <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
         <ModalContent>
           {(onClose) => (
             <>
-              <ModalHeader className="flex flex-col gap-1">{props.item.name}</ModalHeader>
+              <ModalHeader className="flex flex-col gap-1">{ListItem[currentIndex].name}</ModalHeader>
               <ModalBody>
                 <p> 
-                {props.item.message}
+                  {ListItem[currentIndex].message}
                 </p>
               </ModalBody>
+              <ModalFooter className="flex justify-between">
+                <Button color="danger" variant="light" onPress={handlePrev}>
+                  Previous
+                </Button>
+                <Button color="primary" onPress={handleNext}>
+                  Next
+                </Button>
+              </ModalFooter>
             </>
           )}
         </ModalContent>
