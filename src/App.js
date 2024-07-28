@@ -42,8 +42,8 @@ function App() {
           Learn React
         </a>
       </header> */}
-        <div className='h-lvh'>test</div>
-      <div className="columns-2 lg:columns-3 xl:columns-6 gap-2 container">
+      <div className='h-lvh bg-cover place-content-center text-6xl xl:text-9xl'>Happy Birthday!!</div>
+      <div className="columns-2 lg:columns-3 xl:columns-6 gap-2 py-12 container">
         {ListItem.map((item, index) => (
           <Test key={index} index={index} item={item} />
         ))}

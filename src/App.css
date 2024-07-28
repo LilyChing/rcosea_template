@@ -41,6 +41,12 @@
   }
 }
 
+.bg-cover {
+  background-image: url('/public/img/assets/star_bg_small.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
 .icon{
   flex:1
 }
