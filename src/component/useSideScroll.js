@@ -5,11 +5,15 @@ export function useSlidesScroll(exportRef) {
   useEffect(() => {
     const el = elRef.current;
     if (el) {
-        const onWheel = e => {
-            if (e.deltaY == 0) return;
-            if (exportRef) console.log(exportRef.current);
-        console.log(el);
-        console.log(el.scrollTop);
+      const onWheel = e => {
+        if (e.deltaY == 0) return;
+        // if (exportRef) {
+        //   console.log('offsetTop', exportRef.current.offsetTop)
+        // };
+        // console.log('el.scrollTop', el.scrollTop);
+        if(el.scrollTop >= exportRef.current.offsetTop && el.scrollTop < exportRef.current.offsetTop+100){
+          return;
+        }
         e.preventDefault();
         el.scrollBy({
           top: e.deltaY,
