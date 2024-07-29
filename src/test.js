@@ -25,7 +25,7 @@ function Test(props) {
     // <div className="flex basis-1/6">
     <div className="h-full">
     {/* <Card className="m-3" isPressable onPress={() => handleCard(props.item)}> */}
-    <Card className="m-3" isPressable onPress={onOpen}>
+    <Card className="my-3" isPressable onPress={onOpen}>
     <CardHeader className="flex gap-3">
       <div className="shrink-0" > 
       <Image
