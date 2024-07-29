@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rcosea_template/static/css/main.c75a4aac.css",
-    "main.js": "/rcosea_template/static/js/main.afecde30.js",
+    "main.css": "/rcosea_template/static/css/main.74141964.css",
+    "main.js": "/rcosea_template/static/js/main.166ceade.js",
     "static/js/453.c66ae85d.chunk.js": "/rcosea_template/static/js/453.c66ae85d.chunk.js",
-    "static/media/logo.svg": "/rcosea_template/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/star_bg_small.jpg": "/rcosea_template/static/media/star_bg_small.646fdac43331343ad727.jpg",
     "index.html": "/rcosea_template/index.html",
-    "main.c75a4aac.css.map": "/rcosea_template/static/css/main.c75a4aac.css.map",
-    "main.afecde30.js.map": "/rcosea_template/static/js/main.afecde30.js.map",
+    "main.74141964.css.map": "/rcosea_template/static/css/main.74141964.css.map",
+    "main.166ceade.js.map": "/rcosea_template/static/js/main.166ceade.js.map",
     "453.c66ae85d.chunk.js.map": "/rcosea_template/static/js/453.c66ae85d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c75a4aac.css",
-    "static/js/main.afecde30.js"
+    "static/css/main.74141964.css",
+    "static/js/main.166ceade.js"
   ]
 }
