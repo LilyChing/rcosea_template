@@ -11,7 +11,7 @@ export function useSlidesScroll(exportRef) {
         //   console.log('offsetTop', exportRef.current.offsetTop)
         // };
         // console.log('el.scrollTop', el.scrollTop);
-        if(el.scrollTop >= exportRef.current.offsetTop && el.scrollTop < exportRef.current.offsetTop+100){
+        if(el.scrollTop >= exportRef.current.offsetTop && el.scrollTop < exportRef.current.offsetTop+exportRef.current.offsetHeight){
           return;
         }
         e.preventDefault();
