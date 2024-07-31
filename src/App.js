@@ -1,6 +1,5 @@
 import './App.css';
 // import './Output.css';
-import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
 import MessageCard from './MessageCard';
 import ListItem from './listItem';
 import { useRef } from 'react';
@@ -43,7 +42,6 @@ function App() {
     {text:'慶生影片', img:null},
   ];
 
-  const gift = {text:'潤黑的禮物', img:null};
   const introduct = {text:'為你介紹 春魚優秀實況主', img:null};
 
   return (
@@ -71,7 +69,7 @@ function App() {
         </section>
       ))}
         <section className='snap-start' ref={LongRef}>
-          <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑們想對你說的話</div>
+          <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑潤寶們想對你說的話</div>
           <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-6 gap-3 container">
             {ListItem.map((item, index) => (
               <MessageCard key={index} index={index} item={item} />
@@ -80,7 +78,7 @@ function App() {
         </section>
         <section className='snap-start'>
           <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'>
-            <Slides content={gift} />
+          <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑潤寶的禮物</div>
           </div>
         </section>
         <section className='snap-start'>
