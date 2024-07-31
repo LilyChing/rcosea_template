@@ -15,15 +15,15 @@ function MessageCard(props) {
   }
   let social_media;
   let social_media_brand;
-  if (props.item.Twitter_ID){
-    social_media = '@'+props.item.Twitter_ID;
-    social_media_brand = faTwitter;
-  }else if (props.item.Twitch_ID) {
+  if (props.item.Twitch_ID) {
     social_media = props.item.Twitch_ID;
     social_media_brand = faTwitch;
   }else if (props.item.YouTube_ID) {
     social_media = '@'+props.item.YouTube_ID;
     social_media_brand = faYoutube;
+  }else if (props.item.Twitter_ID){
+    social_media = '@'+props.item.Twitter_ID;
+    social_media_brand = faTwitter;
   }else if (props.item.IG_ID) {
     social_media = '@'+props.item.IG_ID;
     social_media_brand = faInstagram;
