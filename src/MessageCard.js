@@ -6,7 +6,7 @@ import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDis
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react"
 import ListItem from './listItem';
 
-function Test(props) {
+function MessageCard(props) {
   const [currentIndex, setCurrentIndex] = useState(props.index);
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
@@ -108,4 +108,4 @@ function Test(props) {
   );
 }
 
-export default Test;
+export default MessageCard;

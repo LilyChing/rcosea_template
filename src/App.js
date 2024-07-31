@@ -1,7 +1,7 @@
 import './App.css';
 // import './Output.css';
 import {Card, CardHeader, CardBody, Image} from "@nextui-org/react";
-import Test from './test';
+import MessageCard from './MessageCard';
 import ListItem from './listItem';
 import { useRef } from 'react';
 import { useSlidesScroll } from './component/useSideScroll';
@@ -74,7 +74,7 @@ function App() {
           <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑們想對你說的話</div>
           <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-6 gap-3 container">
             {ListItem.map((item, index) => (
-              <Test key={index} index={index} item={item} />
+              <MessageCard key={index} index={index} item={item} />
             ))}
           </div>
         </section>
