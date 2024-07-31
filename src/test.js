@@ -57,7 +57,7 @@ function Test(props) {
     </CardFooter> */}
   </Card>
     {/* pass the card object and the updater function as props from state */}
-    <Modal isOpen={isOpen} placement='center' onOpenChange={onOpenChange}>
+    <Modal isOpen={isOpen} placement='center' onOpenChange={onOpenChange} onClose={() => setCurrentIndex(props.index)}>
         <ModalContent>
           {(onClose) => (
             <>
