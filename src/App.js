@@ -70,9 +70,9 @@ function App() {
           </div>
         </section>
       ))}
-        <section className='snap-start p-4 lg:p-12' ref={LongRef}>
+        <section className='snap-start' ref={LongRef}>
           <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑們想對你說的話</div>
-          <div className="columns-2 lg:columns-3 xl:columns-6 gap-3 container">
+          <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-6 gap-3 container">
             {ListItem.map((item, index) => (
               <Test key={index} index={index} item={item} />
             ))}
