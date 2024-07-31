@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/rcosea_template/static/css/main.2a054eee.css",
-    "main.js": "/rcosea_template/static/js/main.a7ac6304.js",
+    "main.js": "/rcosea_template/static/js/main.13e20f97.js",
     "static/js/453.c66ae85d.chunk.js": "/rcosea_template/static/js/453.c66ae85d.chunk.js",
     "static/media/star_bg_small.jpg": "/rcosea_template/static/media/star_bg_small.646fdac43331343ad727.jpg",
     "index.html": "/rcosea_template/index.html",
     "main.2a054eee.css.map": "/rcosea_template/static/css/main.2a054eee.css.map",
-    "main.a7ac6304.js.map": "/rcosea_template/static/js/main.a7ac6304.js.map",
+    "main.13e20f97.js.map": "/rcosea_template/static/js/main.13e20f97.js.map",
     "453.c66ae85d.chunk.js.map": "/rcosea_template/static/js/453.c66ae85d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2a054eee.css",
-    "static/js/main.a7ac6304.js"
+    "static/js/main.13e20f97.js"
   ]
 }
