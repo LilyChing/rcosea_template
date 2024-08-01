@@ -42,10 +42,7 @@ function MessageCard(props) {
   };
 
   return (
-    // <Card className="max-w-[400px]">
-    // <div className="flex basis-1/6">
-    <div className="h-full">
-    {/* <Card className="m-3" isPressable onPress={() => handleCard(props.item)}> */}
+    <>
     <Card className="my-3 w-full" isPressable onPress={onOpen}>
     <CardHeader className="flex gap-3">
       <div className="shrink-0"> 
@@ -107,7 +104,7 @@ function MessageCard(props) {
           )}
         </ModalContent>
       </Modal>
-  </div>
+  </>
   );
 }
 
