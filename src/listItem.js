@@ -275,6 +275,30 @@ let ListItem =
         "YouTube_ID": "",
         "IG_ID": "",
         "Discord_ID": "波拉瑞斯(leaderkao)",
+    },
+    {
+        "time": "2024/8/1 下午 4:24:21",
+        "name": "三羌",
+        "message": "新ㄏ......生日快樂 pepelaugh",
+        "icon": "https://drive.google.com/thumbnail?id=1l8PJvl-GhHMsX09vENR7oI6k6m4FpFwC",
+        "gift": "",
+        "Twitter_ID": "",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/1 下午 4:24:22",
+        "name": "Pogoff(P2)",
+        "message": "現在讓我們換你期待了 Pogoff ",
+        "icon": "https://drive.google.com/thumbnail?id=1UWbgOQwNPK_CAc4meDON3Zp7b7SU7Pa0",
+        "gift": "https://drive.google.com/thumbnail?id=188rpa_y7ZRPd5C7wjva-xdMgkvNndsIr",
+        "Twitter_ID": "Pitowo2",
+        "Twitch_ID": "rushp2",
+        "YouTube_ID": "p2p2p",
+        "IG_ID": "",
+        "Discord_ID": "P2"
     }
 ]
 export default ListItem;
