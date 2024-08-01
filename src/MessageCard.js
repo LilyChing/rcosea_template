@@ -60,10 +60,13 @@ function MessageCard(props) {
       </div>
       <div className="flex flex-col text-left">
         <p className="text-md break-all">{props.item.name}</p>
-        <div className="flex items-center gap-1">
-          <FontAwesomeIcon icon={social_media_brand} size="sm" />
-          <p className="text-small text-default-500 break-all">{social_media}</p>
-        </div>
+        {
+          social_media &&
+          <div className="flex items-center gap-1">
+            <FontAwesomeIcon icon={social_media_brand} size="sm" />
+            <p className="text-small text-default-500 break-all">{social_media}</p>
+          </div>
+        }
       </div>
     </CardHeader>
     <Divider/>
