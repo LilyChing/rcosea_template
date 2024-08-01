@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faTwitch, faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react"
 import ListItem from './listItem';
@@ -10,9 +10,6 @@ function MessageCard(props) {
   const [currentIndex, setCurrentIndex] = useState(props.index);
   const {isOpen, onOpen, onOpenChange} = useDisclosure();
 
-  if(!props.item.icon){
-    props.item.icon = "https://avatars.githubusercontent.com/u/86160567?s=200&v=4";
-  }
   let social_media;
   let social_media_brand;
   if (props.item.Twitch_ID) {
@@ -27,6 +24,9 @@ function MessageCard(props) {
   }else if (props.item.IG_ID) {
     social_media = '@'+props.item.IG_ID;
     social_media_brand = faInstagram;
+  }else if (props.item.Discord_ID) {
+    social_media = props.item.Discord_ID;
+    social_media_brand = faDiscord;
   }
 
   const handlePrev = () => {
@@ -53,7 +53,7 @@ function MessageCard(props) {
         alt="icon"
         height={40}
         radius="full"
-        src={props.item.icon}
+        src={props.item.icon? props.item.icon : "https://cdn.7tv.app/emote/63fd1a91f20c15fd16768563/4x.webp"}
         width={40}
         className="icon object-cover object-top"
       />
