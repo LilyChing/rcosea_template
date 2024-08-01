@@ -9,7 +9,8 @@ let ListItem =
         "Twitter_ID": "ReCat_Airey",
         "Twitch_ID": "艾雷",
         "YouTube_ID": "DD調酒師艾雷",
-        "IG_ID": "recat_airey"
+        "IG_ID": "recat_airey",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/8 下午 2:41:13",
@@ -20,7 +21,8 @@ let ListItem =
         "Twitter_ID": "yunyuan19550884",
         "Twitch_ID": "love_07051314",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/8 下午 2:50:05",
@@ -31,7 +33,8 @@ let ListItem =
         "Twitter_ID": "jamie_lizi",
         "Twitch_ID": "",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/11 下午 4:24:56",
@@ -42,7 +45,8 @@ let ListItem =
         "Twitter_ID": "Haraguro_yakkai",
         "Twitch_ID": "haraguro_kumashi",
         "YouTube_ID": "atemikawase6235",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/17 下午 11:16:09",
@@ -53,7 +57,8 @@ let ListItem =
         "Twitter_ID": "SyuanFong0901",
         "Twitch_ID": "樂旋風",
         "YouTube_ID": "SyuanFong0901",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/18 上午 4:17:20",
@@ -64,7 +69,8 @@ let ListItem =
         "Twitter_ID": "Linyue_wota",
         "Twitch_ID": "",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/25 下午 1:58:30",
@@ -75,7 +81,8 @@ let ListItem =
         "Twitter_ID": "",
         "Twitch_ID": "illusion0324",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/26 下午 5:58:28",
@@ -86,7 +93,8 @@ let ListItem =
         "Twitter_ID": "lavendershuni",
         "Twitch_ID": "",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/26 下午 11:25:32",
@@ -97,7 +105,8 @@ let ListItem =
         "Twitter_ID": "breadwarning45",
         "Twitch_ID": "ijustabread",
         "YouTube_ID": "我只是一塊麵包",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/29 下午 10:16:48",
@@ -108,7 +117,8 @@ let ListItem =
         "Twitter_ID": "Ashiun1812",
         "Twitch_ID": "",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/29 下午 11:40:40",
@@ -119,7 +129,8 @@ let ListItem =
         "Twitter_ID": "a_tsyh",
         "Twitch_ID": "saza_tw",
         "YouTube_ID": "saza_tw",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/29 下午 11:45:45",
@@ -130,7 +141,8 @@ let ListItem =
         "Twitter_ID": "",
         "Twitch_ID": "吃冬粉的海豚 (jennyeeee)",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/30 上午 2:22:28",
@@ -141,7 +153,8 @@ let ListItem =
         "Twitter_ID": "kusa_Matsuyoi",
         "Twitch_ID": "matsuyoi66",
         "YouTube_ID": "Matsuyoi",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/30 上午 11:29:26",
@@ -152,7 +165,8 @@ let ListItem =
         "Twitter_ID": "Kuh954",
         "Twitch_ID": "Kuh954",
         "YouTube_ID": "Kuh954",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/30 下午 12:04:00",
@@ -163,7 +177,8 @@ let ListItem =
         "Twitter_ID": "treen79home",
         "Twitch_ID": "treen79home",
         "YouTube_ID": "Treen79home",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/30 下午 5:18:13",
@@ -174,7 +189,8 @@ let ListItem =
         "Twitter_ID": "shizukusora0829",
         "Twitch_ID": "雫_藍空(shizuku_sora)",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/30 下午 7:27:45",
@@ -185,7 +201,8 @@ let ListItem =
         "Twitter_ID": "BrightShinyYT",
         "Twitch_ID": "SHINYyyyyyyyyyyyyy",
         "YouTube_ID": "ShinyClipingBright",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/30 下午 10:17:14",
@@ -196,7 +213,8 @@ let ListItem =
         "Twitter_ID": "",
         "Twitch_ID": "林靈0",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
     },
     {
         "time": "2024/7/31 上午 2:24:24",
@@ -207,7 +225,56 @@ let ListItem =
         "Twitter_ID": "Kya3580V",
         "Twitch_ID": "",
         "YouTube_ID": "",
-        "IG_ID": ""
+        "IG_ID": "",
+        "Discord_ID": "",
+    },
+    {
+        "time": "2024/7/31 下午 7:06:04",
+        "name": "寫手小Q",
+        "message": "謝謝主播的開台和節目，每次都能讓我緊繃的情緒稍稍放鬆。\n也因為主播所以認識了很多新的朋友～\n祝亞洲水壩建成第29年，生日快樂！！",
+        "icon": "https://drive.google.com/thumbnail?id=1zbCQOcS1l1sNUkAO8vgM82VRxO8Td0nF",
+        "gift": "",
+        "Twitter_ID": "ShouYi10690",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": "",
+    },
+    {
+        "time": "2024/7/31 下午 9:02:18",
+        "name": "Christranger",
+        "message": "一個平凡的社畜,在一年前APEX的比賽看見主播後就無法自拔的愛上了,為一個枯燥乏味的生活添加了各種精彩,感謝這一年裡帶給我們的各種歡笑與快樂,最後祝Ren主播生日快樂",
+        "icon": "",
+        "gift": "",
+        "Twitter_ID": "",
+        "Twitch_ID": "Christranger",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": "",
+    },
+    {
+        "time": "2024/7/31 下午 9:23:08",
+        "name": "阿曜",
+        "message": "祝我們親愛的R主播生日快樂 壽比南山 百年好合。",
+        "icon": "https://drive.google.com/thumbnail?id=1otJT0edFXBhAtCBjYM6CwqxxqAnLV5g1",
+        "gift": "",
+        "Twitter_ID": "",
+        "Twitch_ID": "Ryan0508",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": "",
+    },
+    {
+        "time": "2024/7/31 下午 9:29:11",
+        "name": "波拉瑞斯",
+        "message": "主播~生日快樂(全形驚嘆號)，我是從晝夜城開始入坑看你台的，不知不覺也快要就這樣看一年了，很喜歡你跟觀眾的互動，不管是開台的安安還是在DC群文章區，都感覺的出來主播真是有夠暖，又帥又暖好難不愛，之後也會繼續支持的GaygeUp",
+        "icon": "",
+        "gift": "",
+        "Twitter_ID": "",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": "波拉瑞斯(leaderkao)",
     }
 ]
 export default ListItem;
