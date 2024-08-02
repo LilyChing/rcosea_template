@@ -1,11 +1,12 @@
 import './App.css';
 // import './Output.css';
 import MessageCard from './MessageCard';
+import GiftSlide from './GiftSlide';
 import ListItem from './listItem';
 import { useRef } from 'react';
 
 // Core modules imports are same as usual
-import { Navigation, Pagination, Mousewheel } from 'swiper';
+import { Navigation, Pagination, Mousewheel, EffectCoverflow, Autoplay } from 'swiper';
 // Direct React component imports
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -117,9 +118,66 @@ function App() {
             </div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'>
-            <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑潤寶的禮物</div>
-          </div>
+          {/* <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'> */}
+            {/* <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑潤寶的禮物</div> */}
+            <Swiper
+              effect={'coverflow'}
+              grabCursor={true}
+              centeredSlides={true}
+              slidesPerView={3}
+              autoplay={{
+                delay: 3000,
+                disableOnInteraction: false,
+              }}
+              coverflowEffect={{
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+              }}
+              pagination={{
+                type:'progressbar',
+                progressbarOpposite: true
+              }}
+              modules={[Autoplay, EffectCoverflow, Pagination]}
+              className=""
+            >
+              {ListItem.map((item, index) => (
+                item.gift.length > 0
+                  ?
+                    <SwiperSlide>
+                      <GiftSlide key={index} index={index} item={item} />
+                    </SwiperSlide>
+                  :null
+              ))}
+              <SwiperSlide>
+                <img src="https://drive.google.com/thumbnail?id=1R13iih8yVBUHpK5ekzA4g2dh9NAxxUSM" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <p></p>
+                <p>李白</p>
+                <p>故人西辭黃鶴樓，煙花三月下揚州。</p>
+                <p>孤帆遠影碧空盡，唯見長江天際流。</p>
+                <br/>
+                <p>和賈舍人早朝 ‧ 杜甫（唐）</p>
+                <p>五夜漏聲催曉箭，九重春色醉仙桃。</p>
+                <p>旌旗日暖龍蛇動，宮殿風微燕雀高。</p>
+                <p>朝罷香煙攜滿袖，詩成珠玉在揮毫。</p>
+                <p>欲知世掌絲綸美，池上于今有鳳毛。</p>
+                {/* <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> */}
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+              </SwiperSlide>
+            </Swiper>
+          {/* </div> */}
         </SwiperSlide>
         <SwiperSlide>
         <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'>

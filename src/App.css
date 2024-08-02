@@ -70,3 +70,7 @@
 .swiper-pagination-bullet-active {
   background: #fff !important;
 }
+
+.swiper-coverflow .swiper-wrapper{
+  padding: 10% 0;
+}
