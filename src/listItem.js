@@ -53,7 +53,7 @@ let ListItem =
         "name": "旋風SyuanFong",
         "message": "REN主播,生日快樂~",
         "icon": "https://drive.google.com/thumbnail?id=1U1pDoZwoSWbJnmmAniAG4l0VW03CYW7S",
-        "gift": ["https://drive.google.com/open?id=11viNuQzvwXI1kG4XTcM_PvGdr3NbSftJ"],
+        "gift": ["https://drive.google.com/thumbnail?id=11viNuQzvwXI1kG4XTcM_PvGdr3NbSftJ"],
         "Twitter_ID": "SyuanFong0901",
         "Twitch_ID": "樂旋風",
         "YouTube_ID": "SyuanFong0901",
@@ -89,7 +89,7 @@ let ListItem =
         "name": "薯阿泥",
         "message": "主播生日快樂！跟台也一年半了，除了厄介糖好好嗑OkayChamping以外，每天掛台的聲音也漸漸成為令人安心的日常。看著主播在一次次的比賽中成長，每次的竭盡全力都很令人驕傲。以後會繼續畫二創支持主播ㄉ，期待未來主播繼續閃閃發亮ヽ(´▽｀)/",
         "icon": "https://drive.google.com/thumbnail?id=1LhuPnVLXEe5Bgs7GjQbUdPSD7jqN1o24",
-        "gift": ["https://drive.google.com/open?id=14AKkUXBTJK6xBHTZmJX2hFAC9pkW6dUA"],
+        "gift": ["https://drive.google.com/thumbnail?id=14AKkUXBTJK6xBHTZmJX2hFAC9pkW6dUA"],
         "Twitter_ID": "lavendershuni",
         "Twitch_ID": "",
         "YouTube_ID": "",
@@ -113,7 +113,7 @@ let ListItem =
         "name": "阿勳",
         "message": "主播生日快樂~\n雖然最近比較少畫插圖了，但還是做了兩個動圖希望主播喜歡~",
         "icon": "https://drive.google.com/thumbnail?id=1WmdstRjlT8oZrbvNP1zelSuScv9guQ8a",
-        "gift": ["https://drive.google.com/open?id=1R13iih8yVBUHpK5ekzA4g2dh9NAxxUSM", "https://drive.google.com/open?id=175OsEQwWZwJnaRljFEOTLoFyYvJglSfq", "https://drive.google.com/open?id=1JMlBXqbMRW24raASWcC4Cynjkqc3iops", "https://drive.google.com/open?id=1i9z-ptbBvh0TiO-Br-7PjrZ5BCqQ9Oyx"],
+        "gift": ["https://drive.google.com/thumbnail?id=1R13iih8yVBUHpK5ekzA4g2dh9NAxxUSM", "https://drive.google.com/thumbnail?id=175OsEQwWZwJnaRljFEOTLoFyYvJglSfq", "https://drive.google.com/thumbnail?id=1JMlBXqbMRW24raASWcC4Cynjkqc3iops", "https://drive.google.com/thumbnail?id=1i9z-ptbBvh0TiO-Br-7PjrZ5BCqQ9Oyx"],
         "Twitter_ID": "Ashiun1812",
         "Twitch_ID": "",
         "YouTube_ID": "",
@@ -299,6 +299,42 @@ let ListItem =
         "YouTube_ID": "p2p2p",
         "IG_ID": "",
         "Discord_ID": "P2"
+    },
+    {
+        "time": "2024/8/2 上午 12:17:46",
+        "name": "蘋果",
+        "message": "REN主播生日快樂，在這邊祝福增長一歲後的主播一切順利!",
+        "icon": "https://drive.google.com/thumbnail?id=1TQW_DW89hLv36VT9G5Xr3lOvv68jM1aA",
+        "gift": [],
+        "Twitter_ID": "AppleAiyu",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/2 下午 2:48:20",
+        "name": "lemon",
+        "message": "認識主播超過18個月了  自從認識主播 我的生活多了很多不同的體驗 像是第一次為了周邊從台中跑到台北諸如此類的 也從未想過我會這麼喜歡一個男實況主 真的很男能可貴 如今經歷了你的第二個生日 希望你能一直好下去 跟台主可以相處的越來越好 能賺更多錢 帶給我們更多精彩的實況",
+        "icon": "",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "lemon_pepega",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/2 下午 8:50:52",
+        "name": "橙默",
+        "message": "Ren主播生日快樂！\n沒想到時間這麼快，已經參與了你第二次生日\n也被你傳染7tv語一年了 KEKW\n我一直都很喜歡你的實況\n謝謝你帶給我們這麼多歡樂！\n上次生日沒有畫賀圖，這次有畫了一張！\n希望你喜歡！祝你天天開心~",
+        "icon": "https://drive.google.com/thumbnail?id=15fyxWHLaa82pA26fYKWvl8YP5BrhzJ8T",
+        "gift": ["https://drive.google.com/thumbnail?id=1Gb_ekd5H2rY4XjAHTO-J36rbg0Y4PR8H"],
+        "Twitter_ID": "kt_silent_0461",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
     }
 ]
 export default ListItem;
