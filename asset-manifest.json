@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/rcosea_template/static/css/main.d81645ec.css",
-    "main.js": "/rcosea_template/static/js/main.bf15a109.js",
+    "main.css": "/rcosea_template/static/css/main.cee9e1f0.css",
+    "main.js": "/rcosea_template/static/js/main.0dceda7d.js",
     "static/js/453.c66ae85d.chunk.js": "/rcosea_template/static/js/453.c66ae85d.chunk.js",
     "static/media/star_bg_small.jpg": "/rcosea_template/static/media/star_bg_small.646fdac43331343ad727.jpg",
     "index.html": "/rcosea_template/index.html",
-    "main.d81645ec.css.map": "/rcosea_template/static/css/main.d81645ec.css.map",
-    "main.bf15a109.js.map": "/rcosea_template/static/js/main.bf15a109.js.map",
+    "main.cee9e1f0.css.map": "/rcosea_template/static/css/main.cee9e1f0.css.map",
+    "main.0dceda7d.js.map": "/rcosea_template/static/js/main.0dceda7d.js.map",
     "453.c66ae85d.chunk.js.map": "/rcosea_template/static/js/453.c66ae85d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d81645ec.css",
-    "static/js/main.bf15a109.js"
+    "static/css/main.cee9e1f0.css",
+    "static/js/main.0dceda7d.js"
   ]
 }
