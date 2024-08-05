@@ -140,6 +140,10 @@ function App() {
               }}
               breakpoints={{
                 768: {
+                  slidesPerView: 2,
+                  spaceBetween: 0,
+                },
+                1024: {
                   slidesPerView: 3,
                   spaceBetween: 0,
                   grabCursor: true
