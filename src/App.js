@@ -105,7 +105,7 @@ function App() {
         {slide_item.map((content, index) => (
           <SwiperSlide>
             <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'>
-              <Slides content={content} />
+              <Slides key={index} index={index} content={content} />
             </div>
           </SwiperSlide>
         ))}
@@ -122,19 +122,28 @@ function App() {
             {/* <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑潤寶的禮物</div> */}
             <Swiper
               effect={'coverflow'}
-              grabCursor={true}
+              grabCursor={false}
               centeredSlides={true}
-              slidesPerView={3}
+              slidesPerView={1}
+              spaceBetween={100}
+              loop={true}
               autoplay={{
-                delay: 3000,
+                delay: 2000,
                 disableOnInteraction: false,
               }}
               coverflowEffect={{
-                rotate: 50,
+                rotate: 10,
                 stretch: 0,
                 depth: 100,
                 modifier: 1,
                 slideShadows: true,
+              }}
+              breakpoints={{
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 0,
+                  grabCursor: true
+                },
               }}
               pagination={{
                 type:'progressbar',
@@ -151,31 +160,6 @@ function App() {
                     </SwiperSlide>
                   :null
               ))}
-              <SwiperSlide>
-                <img src="https://drive.google.com/thumbnail?id=1R13iih8yVBUHpK5ekzA4g2dh9NAxxUSM" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <p></p>
-                <p>李白</p>
-                <p>故人西辭黃鶴樓，煙花三月下揚州。</p>
-                <p>孤帆遠影碧空盡，唯見長江天際流。</p>
-                <br/>
-                <p>和賈舍人早朝 ‧ 杜甫（唐）</p>
-                <p>五夜漏聲催曉箭，九重春色醉仙桃。</p>
-                <p>旌旗日暖龍蛇動，宮殿風微燕雀高。</p>
-                <p>朝罷香煙攜滿袖，詩成珠玉在揮毫。</p>
-                <p>欲知世掌絲綸美，池上于今有鳳毛。</p>
-                {/* <img src="https://swiperjs.com/demos/images/nature-3.jpg" /> */}
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
-              </SwiperSlide>
-              <SwiperSlide>
-                <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
-              </SwiperSlide>
             </Swiper>
           {/* </div> */}
         </SwiperSlide>
