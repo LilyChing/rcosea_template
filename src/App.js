@@ -128,7 +128,7 @@ function App() {
               spaceBetween={100}
               loop={true}
               autoplay={{
-                delay: 2000,
+                delay: 3000,
                 disableOnInteraction: false,
               }}
               coverflowEffect={{
@@ -151,6 +151,9 @@ function App() {
               }}
               modules={[Autoplay, EffectCoverflow, Pagination]}
               className=""
+              onClick={(swiper) => {
+                swiper.autoplay.pause();
+              }}
             >
               {ListItem.map((item, index) => (
                 item.gift.length > 0
