@@ -53,7 +53,12 @@ let ListItem =
         "name": "旋風SyuanFong",
         "message": "REN主播,生日快樂~",
         "icon": "https://drive.google.com/thumbnail?id=1U1pDoZwoSWbJnmmAniAG4l0VW03CYW7S",
-        "gift": ["https://drive.google.com/thumbnail?id=11viNuQzvwXI1kG4XTcM_PvGdr3NbSftJ"],
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/11viNuQzvwXI1kG4XTcM_PvGdr3NbSftJ=s5000",
+                    }
+                ],
         "Twitter_ID": "SyuanFong0901",
         "Twitch_ID": "樂旋風",
         "YouTube_ID": "SyuanFong0901",
@@ -89,7 +94,12 @@ let ListItem =
         "name": "薯阿泥",
         "message": "主播生日快樂！跟台也一年半了，除了厄介糖好好嗑OkayChamping以外，每天掛台的聲音也漸漸成為令人安心的日常。看著主播在一次次的比賽中成長，每次的竭盡全力都很令人驕傲。以後會繼續畫二創支持主播ㄉ，期待未來主播繼續閃閃發亮ヽ(´▽｀)/",
         "icon": "https://drive.google.com/thumbnail?id=1LhuPnVLXEe5Bgs7GjQbUdPSD7jqN1o24",
-        "gift": ["https://drive.google.com/thumbnail?id=14AKkUXBTJK6xBHTZmJX2hFAC9pkW6dUA"],
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/14AKkUXBTJK6xBHTZmJX2hFAC9pkW6dUA=s5000",
+                    }
+                ],
         "Twitter_ID": "lavendershuni",
         "Twitch_ID": "",
         "YouTube_ID": "",
@@ -113,7 +123,17 @@ let ListItem =
         "name": "阿勳",
         "message": "主播生日快樂~\n雖然最近比較少畫插圖了，但還是做了兩個動圖希望主播喜歡~",
         "icon": "https://drive.google.com/thumbnail?id=1WmdstRjlT8oZrbvNP1zelSuScv9guQ8a",
-        "gift": ["https://drive.google.com/thumbnail?id=1R13iih8yVBUHpK5ekzA4g2dh9NAxxUSM", "https://drive.google.com/thumbnail?id=175OsEQwWZwJnaRljFEOTLoFyYvJglSfq", "https://drive.google.com/thumbnail?id=1JMlBXqbMRW24raASWcC4Cynjkqc3iops", "https://drive.google.com/thumbnail?id=1i9z-ptbBvh0TiO-Br-7PjrZ5BCqQ9Oyx"],
+        "gift": [
+                    {
+                        type: "image_group",
+                        src: [
+                            "https://lh3.googleusercontent.com/d/1R13iih8yVBUHpK5ekzA4g2dh9NAxxUSM=s5000",
+                            "https://lh3.googleusercontent.com/d/175OsEQwWZwJnaRljFEOTLoFyYvJglSfq=s5000",
+                            "https://lh3.googleusercontent.com/d/1JMlBXqbMRW24raASWcC4Cynjkqc3iops=s5000",
+                            "https://lh3.googleusercontent.com/d/1i9z-ptbBvh0TiO-Br-7PjrZ5BCqQ9Oyx=s5000",
+                        ]
+                    }
+                ],
         "Twitter_ID": "Ashiun1812",
         "Twitch_ID": "",
         "YouTube_ID": "",
@@ -329,9 +349,361 @@ let ListItem =
         "name": "橙默",
         "message": "Ren主播生日快樂！\n沒想到時間這麼快，已經參與了你第二次生日\n也被你傳染7tv語一年了 KEKW\n我一直都很喜歡你的實況\n謝謝你帶給我們這麼多歡樂！\n上次生日沒有畫賀圖，這次有畫了一張！\n希望你喜歡！祝你天天開心~",
         "icon": "https://drive.google.com/thumbnail?id=15fyxWHLaa82pA26fYKWvl8YP5BrhzJ8T",
-        "gift": ["https://drive.google.com/thumbnail?id=1Gb_ekd5H2rY4XjAHTO-J36rbg0Y4PR8H"],
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/1Gb_ekd5H2rY4XjAHTO-J36rbg0Y4PR8H=s5000",
+                    }
+                ],
         "Twitter_ID": "kt_silent_0461",
         "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/2 下午 11:54:41",
+        "name": "說書的",
+        "message": "peepoUnicorn被字數限制了，其他的祝賀放後面。\n亞洲水壩落成28周年~恭喜~\n新的一年祝你事事順心，努力都會有所回報，潤黑們的冠軍最帥了!",
+        "icon": "https://drive.google.com/thumbnail?id=1B00Bk7mCUHFwhmsnSFIpTSJkPELyN7qP",
+        "gift": [
+                    {
+                        type: "text",
+                        html: (
+                            <div className="container text-left">
+                                <p>說書的身無長物，以詩為禮</p>
+                                <br/>
+                                <p className="text-lg"style={{fontFamily:'DFKai-SB'}}>滂沱陣陣雲中存</p>
+                                <p className="text-lg"style={{fontFamily:'DFKai-SB'}}>漣漪圈圈湖面紋</p>
+                                <p className="text-lg"style={{fontFamily:'DFKai-SB'}}>喧囂不改鴻鵠志</p>
+                                <p className="text-lg"style={{fontFamily:'DFKai-SB'}}>毋須明澄方顯真</p>
+                                <br/>
+                                <p>贈你圓印上刻惜，惜圓惜緣。</p>
+                                <p>不過漫博忘記給了，FF再給pepegashruge</p>
+                                <br/>
+                                <p>認識的也許只是檯面上的你，但各種實況我都看得很開心。</p>
+                                <p>特別愛看火爆跟G8，不過變和善柔軟也很有趣。</p>
+                                <p>開台帶給觀眾歡樂，大成功啊agreeGe</p>
+                                <p>看你從塔科夫槍男變成帥氣潮男，真是勵志(?)</p>
+                                <br/>
+                                <p>很喜歡你開台的志向，祝好勝的你各方面都順遂。</p>
+                                <br/>
+                                <p>禮物詩不可避免的偷厄一下XD</p>
+                                <p>水字旁有七，喜志當誌喜。</p>
+                                <br/>
+                                <p>祝你生日快樂</p>
+                            </div>
+                        ),
+                    }
+                ],
+        "Twitter_ID": "UnwillingWizard",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 上午 1:43:23",
+        "name": "芋頭",
+        "message": "R主播生日快樂，追你的台也快要一年了，這一年帶給我很多快樂，DC群的大家也非常搞耍可愛，能夠認識主播跟這些朋友真的非常開心，希望主播以後也要繼續這麼開心，這裡的氛圍我真的超愛，感謝主播的陪伴，也希望以後也可以一直跟大家開開心心peeposhy。",
+        "icon": "https://drive.google.com/thumbnail?id=1DcnkMR5U40aig0nMHCUuocRx9rZnKhyt",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "yutou_0210",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 2:28:34",
+        "name": "龍知墨",
+        "message": "R主播生日快樂，原諒我沒有太多時間組織語言，但我想跟你表達的是，你想帶給大家快樂的夢想已經達到了，而且很成功",
+        "icon": "https://drive.google.com/thumbnail?id=1PXGU29XEOSWYqFJHZf2vvTvifST5sQuk",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": "aston31415"
+    },
+    {
+        "time": "2024/8/3 下午 4:30:56",
+        "name": "吐司",
+        "message": "REN生日快樂!!!\n主播變得越來越帥\n心中Renko的形象也變得越來越色氣\n我的腦袋出問題了嗎\n應該是主播的問題吧",
+        "icon": "https://drive.google.com/thumbnail?id=177iv1CAQ_0FfewJKw1ibrbFeihm5jXmu",
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/10a-57Q97MjS0MznGBwVygv8vwMnJ8V5J=s5000",
+                    }
+                ],
+        "Twitter_ID": "TOAST_x64",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:00:18",
+        "name": "魚樂",
+        "message": "雖然我只是一名默默看台的觀眾，但看著主播與大家的互動，真的讓我感到很開心。感覺主播不是只把我們當觀眾，而是真心的把我們像朋友一樣看待。希望主播持續做下去 gaygeup",
+        "icon": "https://drive.google.com/thumbnail?id=1bfw-Rg0vv3rbIjFcdrIZCTF6kLRMG4zL",
+        "gift": [],
+        "Twitter_ID": "SkysTyle_fish",
+        "Twitch_ID": "recollectfish1",
+        "YouTube_ID": "Afishintub",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:02:58",
+        "name": "鮪魚半熟蛋",
+        "message": "主播生日快樂，希望你喜歡香香的Renko抱枕PeepoShy",
+        "icon": "https://drive.google.com/thumbnail?id=1d9uCxhUZC5bnHOrMxZr9eam4DthXqRSL",
+        "gift": [],
+        "Twitter_ID": "FastestEscaper",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:03:15",
+        "name": "瑞給",
+        "message": "謝謝主播給我們帶來歡樂 希望未來能夠每天看到開開心心的REN peepolove",
+        "icon": "https://drive.google.com/thumbnail?id=1giNDTi73a9Dj9EiKJFYTD14A82zKRtX1",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "瑞給",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:04:07",
+        "name": "蒸餾酒",
+        "message": "Ren祝你能萬事一直順利下去！！",
+        "icon": "",
+        "gift": [],
+        "Twitter_ID": "XkYB45ZfgEOiHHi",
+        "Twitch_ID": "sfy40231552",
+        "YouTube_ID": "aaaaaooo-5269",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:05:59",
+        "name": "能者過勞",
+        "message": "主播生日快樂，話說有人越來越不排斥下雨天了，你準備好你的傘了嗎？",
+        "icon": "https://drive.google.com/thumbnail?id=1j12kQ2cQHRkrpJT_-jvcw-PV_A6J3k0o",
+        "gift": [],
+        "Twitter_ID": "noushakarou",
+        "Twitch_ID": "能者過勞_(noushakarou)",
+        "YouTube_ID": "noushakarou",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:23:50",
+        "name": "MattLiu123",
+        "message": "祝你生日快樂！願你在這特別的日子裡，擁有無限的快樂與幸福。願你的每一天都充滿陽光與笑聲，事事順心如意，健康平安，夢想成真！熙望你能實現所有的願望，迎接美好的未來！🎉🎂",
+        "icon": "https://drive.google.com/thumbnail?id=1LcAzIKge3Fo0WCNGFC4I37pOu7ljr8Ly",
+        "gift": [],
+        "Twitter_ID": "Matt28350654",
+        "Twitch_ID": "MattLiu123",
+        "YouTube_ID": "TheMattliu",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 7:47:29",
+        "name": "4龍",
+        "message": "Ren生日快樂！祝你未來天天開心，做什麼都順順利利，還有不要再這麼G8了 PogOff",
+        "icon": "https://drive.google.com/thumbnail?id=1Q0pLzpbmCJ3uNP5OC8GEsNuZzIKwuZ4E",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "4龍4龍",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 8:11:44",
+        "name": "嗚呼水母",
+        "message": "主播生日快樂‼️從廢棄之城開始跟台，慢慢習慣每天八點打開手機領安安，然後邊寫作業讀書，邊看主播今天要幹嘛，不知不覺就看五個月了ww\n謝謝Ren!!希望有越來越多人認識你 peepoLove\n現在沒辦法 但三年後我也會成為新潤黑 Pog",
+        "icon": "https://drive.google.com/thumbnail?id=1H8iQhgJCESxypXs9TPrJ9cAcHJO6mV6r",
+        "gift": [],
+        "Twitter_ID": "ScyPhoZoa_N",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 8:16:09",
+        "name": "YZ",
+        "message": "祝Ren主播生日快樂🥳當初因為喜歡主播和聊天室的氛圍而開始會看台，覺得時間過得好快，一下子就一年了，感謝YT上的剪輯讓我發現了一個很暖又很有趣的人，不論是特別企劃或是簡單的遊戲雜談，我到現在也一直都很喜歡你的實況，祝未來一切順利！",
+        "icon": "https://drive.google.com/thumbnail?id=13KlBciAPuqvKF1Z0PpaSMQ0cfQSQBChi",
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/1JihZ1O90_xTAcB9L4E0f5zFykWkWZkek=s5000",
+                    }
+                ],
+        "Twitter_ID": "",
+        "Twitch_ID": "yz_0413",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/3 下午 9:14:01",
+        "name": "小何",
+        "message": "主播生日快樂!!!\n不知不覺已經跟主播過了兩個生日  GaygeUp\n希望主播在未來能夠平平安安的\n愛情事業雙收 peepoShy",
+        "icon": "https://drive.google.com/thumbnail?id=1LU1rQCa9pUY8DghOWNvUEf4KsXheJoJz",
+        "gift": [],
+        "Twitter_ID": "LitHo0422",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 上午 2:26:39",
+        "name": "若草草",
+        "message": "剛追隨不久，但真的很開心在廣大的網路世界裡來到主播的台。病後復健期的我，很多方面都因此燃起動力，和朋友們聊起主播時，她們都說我變得開心很多。謝謝主播幾乎每晚開台陪伴，務必顧好自己的身心健康〜謝謝讓REN之所以是REN的一切事物。生日快樂！",
+        "icon": "https://drive.google.com/thumbnail?id=1EJruTx_xA20pprrtwaKHBg_-k9Fz-EZR",
+        "gift": [
+                    {
+                        type: "video",
+                        src: "https://drive.google.com/file/d/1i70F8XSp9wmSt1So_g6HTHvTMo0o92z2/preview",
+                    }
+                ],
+        "Twitter_ID": "kyouko_wakakusa",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 上午 5:09:38",
+        "name": "5R",
+        "message": "恭喜主播又老了一歲，快奔三囉 PepeLaugh。\n感謝平時的聊天台，\n偶爾上班戴耳機聽台都能讓上班不無聊。\n祝福開台順利，感情方面幸福 OkayChamping",
+        "icon": "https://drive.google.com/thumbnail?id=1r9vgmDbZek4vx9KE5gK1TBZlDj1FEmv2",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "5R_5R",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 上午 6:09:29",
+        "name": "踢拘",
+        "message": "當初因為R熙而認識了主播，強硬的槍法、有趣的雜談和魔性的笑聲是我平常的快樂來源，在這一年半以來雖然不擅長用文字聊天，都在聊天室潛水，但跟著氣氛刷7TV語的時候非常的開心 agreege ，感謝主播選擇開實況帶給大家歡樂，祝主播生日快樂 pepeHype",
+        "icon": "https://drive.google.com/thumbnail?id=1YJLcfuVExLTGA6OXofzP_OfeKpYZJL2P",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "iyo15925",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 上午 8:08:29",
+        "name": "橘子冰茶",
+        "message": "祝最寵粉的U質實況主Ren主播生日快樂~ FeelsBirthdayMan Clap",
+        "icon": "https://drive.google.com/thumbnail?id=14I6KN0sVK9q9U7nUVr_DvU7LsquapOWH",
+        "gift": [],
+        "Twitter_ID": "Henry620352",
+        "Twitch_ID": "橘子冰茶",
+        "YouTube_ID": "sekliu8296",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 下午 2:17:24",
+        "name": "Avery",
+        "message": "主播生日快樂，謝謝你幾乎每天都有開台帶給我許多的快樂，你真的超超超寵粉的，我覺得能當潤黑真的很幸運，未來也一起加油吧，我會一直在能力範圍內支持主播的♡",
+        "icon": "https://drive.google.com/thumbnail?id=1FUEX_PIT7a4xh4VYiFRWS6mC6xhNMXFQ",
+        "gift": [],
+        "Twitter_ID": "Avery_1130XD",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 下午 2:40:19",
+        "name": "笑笑",
+        "message": "生日開心!",
+        "icon": "https://drive.google.com/thumbnail?id=1OOjsfV-uH6Ad4ljpqtA386S3bC7EZ3KR",
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/1k-Z497ZhnD60pRXzaVJLGAvgQ-HiXzyN=s5000",
+                    }
+                ],
+        "Twitter_ID": "smile21514",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 下午 7:29:49",
+        "name": "Jason",
+        "message": "主播生日快樂！認識主播的這一年多來，讓我苦悶的研究生生涯後段得到一股支持的力量，陪伴我走向畢業之路。謝謝主播帶給我無數的歡樂，也讓我認識DC群的大家，得到一群好朋友。祝福主播未來的日子能常保快樂，追隨本心而行。快樂最重要！widePeepoHappy",
+        "icon": "https://drive.google.com/thumbnail?id=1McSrXFA-O1UInIlVRL4wuNPTal4zPUFI",
+        "gift": [],
+        "Twitter_ID": "rcjasonrc",
+        "Twitch_ID": "rcjason",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 下午 8:38:04",
+        "name": "ロゆり/亭",
+        "message": "不知不覺間在聊天室潛水了一年多，第一次浮出水面還是去年剛畫完G8 REN貼圖的時候，R主播的直播與精華常常在我趕稿時陪伴我，很感謝主播帶給我們的歡笑!",
+        "icon": "https://drive.google.com/thumbnail?id=1q4-mlRTf7T_78hSQDB2Re-t8jvIWOaau",
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/1shD3JVUa8OSJjIG8tYSUkqNrspoG0ZX9=s5000",
+                    }
+                ],
+        "Twitter_ID": "royuri_Ting",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/4 下午 10:10:46",
+        "name": "炭烤蚊",
+        "message": "恭祝你福壽與天齊 慶賀你生辰快樂",
+        "icon": "https://drive.google.com/thumbnail?id=11fyWvwy-RMQ3-wkdpRatVEYrSeRgvoXj",
+        "gift": [],
+        "Twitter_ID": "mosquito_Yee",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/5 上午 1:58:07",
+        "name": "白雲朵朵開",
+        "message": "R主播！生日快樂。\n很抱歉今年到日本工作後每天加班，生日賀圖畫得很簡單。所以沒有去年的公主裝RENKO及帥哥主播的圖驚艷。希望你不要嫌棄。知道主播前，剛好因為憂鬱症很痛苦。但是去年四月因緣際會下看到精華影片，認識主播，讓我每天都很快樂。\n希望你每天都可以很快樂，不要有煩惱。",
+        "icon": "https://drive.google.com/thumbnail?id=1IzGCZszNmeWU-z0eyKpyNGCN6E016t5j",
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/1F4bWqIxqv-2F95PYBzu6_3DJIZpBaxGD=s5000",
+                    }
+                ],
+        "Twitter_ID": "cloudcloud2023",
+        "Twitch_ID": "cloudcloud2023",
         "YouTube_ID": "",
         "IG_ID": "",
         "Discord_ID": ""
