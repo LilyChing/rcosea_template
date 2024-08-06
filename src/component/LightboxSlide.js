@@ -33,9 +33,9 @@ function RenderDetailSlide({slide}) {
         </>
         : null
       }
-      <div className="flex flex-col text-center">
-        <p className="text-xl w-full break-all pb-2">{slide.name}</p>
-        <div className="flex gap-4 justify-evenly">
+      <div className="w-full flex flex-col text-center">
+        <p className="text-xl break-all pb-2">{slide.name}</p>
+        <div className="flex flex-wrap gap-2 justify-evenly">
           {
             [
               {name: slide.Twitter_ID, icon: faTwitter},
