@@ -707,6 +707,95 @@ let ListItem =
         "YouTube_ID": "",
         "IG_ID": "",
         "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/5 下午 5:09:33",
+        "name": "可累兒",
+        "message": "主播安安~~\n恭喜你又增加了一歲 (/●◔∀◐●)/\n雖然不常留言，但每天下班可以看到主播的台讓我明天又可以繼續努力當社畜，\n也請主播照顧好自己，累的時候要記得休息唷(´,,•ω•,,)♡",
+        "icon": "",
+        "gift": [],
+        "Twitter_ID": "lu_hsiao",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/5 下午 8:10:05",
+        "name": "語季",
+        "message": "REN生日快樂，不知不覺也看你一年多了，當初我確實是因為RC這個組合才看的，但越看你的台越覺得你是一個很優秀的實況主，希望你可以保持著這份熱忱在未來你想做的每一件事上，祝願你的未來順順利利",
+        "icon": "https://drive.google.com/thumbnail?id=1Mxk39RTZaDZB-eZVxfHwwrX5lABisq3e",
+        "gift": [],
+        "Twitter_ID": "vic200922",
+        "Twitch_ID": "vic200922",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/5 下午 10:37:05",
+        "name": "味全",
+        "message": "REN主播生日快樂~ \n看臺到現在也一年半了，從昔日的冷酷槍男變成現在的汪汪渣男，很開心看到主播開始嘗試越來越多的企劃，也希望來看台的各位能在這裡找到一份屬於你們的快樂。",
+        "icon": "https://drive.google.com/thumbnail?id=1vs8dQyZKcFAAPxxvCpeNfHR2aJTgLC_o",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "o0asm0o",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/6 上午 3:39:41",
+        "name": "charterla",
+        "message": "生日快樂！",
+        "icon": "",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "charterla_lazy",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/6 上午 7:49:06",
+        "name": "梅依",
+        "message": "生快日樂 ･*･:≡(　ε:)",
+        "icon": "https://drive.google.com/thumbnail?id=1I_Rmeb01U8B0rDNAUxrgm_3Q92lpk6oY",
+        "gift": [
+                    {
+                        type: "image",
+                        src: "https://lh3.googleusercontent.com/d/1jfBadmXKCc-n8vWkwt7srhVLH6SFAPhu=s5000",
+                    }
+                ],
+        "Twitter_ID": "Mayie48",
+        "Twitch_ID": "",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/6 上午 8:47:36",
+        "name": "澤田櫻",
+        "message": "祝主播生日快樂，我很喜歡看主播跟台主的互動，希望RC這個組合能長長久久，謝謝主播一直帶給我們歡樂。",
+        "icon": "",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "",
+        "YouTube_ID": "user-zp4bc4py3h",
+        "IG_ID": "",
+        "Discord_ID": ""
+    },
+    {
+        "time": "2024/8/6 上午 11:29:55",
+        "name": "很胖的阿祖",
+        "message": "很開心能認識到主播，一開始是因為tarkov而認識到主播，沒想到主播除了槍法嘎嘎硬，實況風格也夠斜，笑聲更是G8，再之後更因為主播而有幸成為R熙語音的股民，之前的RP演出更是讓我數次複習。\n除了上述的種種，想說的或許還有不少，但一時難以用文字表達，最後，祝主播事事順心，生日快樂!",
+        "icon": "",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "很胖的阿祖 (andrewchou0828)",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": ""
     }
 ]
 export default ListItem;
