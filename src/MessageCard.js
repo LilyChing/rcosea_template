@@ -2,14 +2,10 @@ import React from "react";
 import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
-import {Modal, ModalContent, ModalHeader, ModalBody, ModalFooter, Button, useDisclosure} from "@nextui-org/react";
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react"
 import ListItem from './listItem';
 
 function MessageCard(props) {
-  const [currentIndex, setCurrentIndex] = useState(props.index);
-  const {isOpen, onOpen, onOpenChange} = useDisclosure();
-
   let social_media;
   let social_media_brand;
   if (props.item.Twitch_ID) {
@@ -29,21 +25,9 @@ function MessageCard(props) {
     social_media_brand = faDiscord;
   }
 
-  const handlePrev = () => {
-    if (currentIndex > 0) {
-      setCurrentIndex(currentIndex-1);
-    }
-  };
-  
-  const handleNext = () => {
-    if (currentIndex < ListItem.length - 1) {
-      setCurrentIndex(currentIndex+1);
-    }
-  };
-
   return (
     <>
-    <Card className="my-3 w-full" isPressable onPress={onOpen}>
+    <Card className="my-3 w-full" isPressable onClick={props.onCardClick}>
     <CardHeader className="flex gap-3">
       <div className="shrink-0"> 
       <Image
@@ -70,40 +54,7 @@ function MessageCard(props) {
     <CardBody>
       <p className="whitespace-pre-line">{props.item.message}</p>
     </CardBody>
-    {/* <Divider/>
-    <CardFooter>
-      <Link
-        isExternal
-        showAnchorIcon
-        href="https://github.com/nextui-org/nextui"
-      >
-        Visit source code on GitHub.
-      </Link>
-    </CardFooter> */}
   </Card>
-    {/* pass the card object and the updater function as props from state */}
-    <Modal isOpen={isOpen} placement='center' onOpenChange={onOpenChange} onClose={() => setCurrentIndex(props.index)}>
-        <ModalContent>
-          {(onClose) => (
-            <>
-              <ModalHeader className="flex flex-col gap-1">{ListItem[currentIndex].name}</ModalHeader>
-              <ModalBody>
-                <p className="whitespace-pre-line"> 
-                  {ListItem[currentIndex].message}
-                </p>
-              </ModalBody>
-              <ModalFooter className="flex justify-between">
-                <Button color="danger" variant="light" onPress={handlePrev}>
-                  Previous
-                </Button>
-                <Button color="primary" onPress={handleNext}>
-                  Next
-                </Button>
-              </ModalFooter>
-            </>
-          )}
-        </ModalContent>
-      </Modal>
   </>
   );
 }

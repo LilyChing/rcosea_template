@@ -100,3 +100,17 @@
   display: block;
   height: auto;
 }
+
+.yarl__navigation_prev {
+  left: 10svw !important;
+}
+
+.yarl__navigation_next {
+  right: 10svw !important;
+}
+
+@media (max-width: 768px) {
+  .yarl__navigation_prev, .yarl__navigation_next {
+    top: 90svh !important;
+  }
+}

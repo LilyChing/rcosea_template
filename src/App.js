@@ -1,9 +1,9 @@
+import React, { useRef, useState } from 'react';
 import './App.css';
 // import './Output.css';
 import MessageCard from './MessageCard';
 import GiftSlide from './GiftSlide';
 import ListItem from './listItem';
-import { useRef } from 'react';
 
 // Core modules imports are same as usual
 import { Navigation, Pagination, Mousewheel, EffectCoverflow, Autoplay } from 'swiper';
@@ -11,6 +11,7 @@ import { Navigation, Pagination, Mousewheel, EffectCoverflow, Autoplay } from 's
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/bundle';
+import LightboxSlide from './component/LightboxSlide';
 
 // export default function App() {
 //   return (
@@ -43,6 +44,9 @@ function Slides (props){
 function App() {
   const LongRef = useRef();
   // console.log(this.appRef.current)
+
+  const [ currentIndex, setCurrentIndex ] = useState(0);
+  const [ lightboxOpen, setLightboxOpen] = useState(false);
 
   const slide_item = [
     {text:'REN Happy Birthday 2024.08.09', img:null},
@@ -100,11 +104,11 @@ function App() {
         onSlideChange={() => console.log('slide change')}
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChangeTransitionEnd={allowScroll}
-        className="h-lvh"
+        className="h-svh"
       >
         {slide_item.map((content, index) => (
           <SwiperSlide>
-            <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'>
+            <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
               <Slides key={index} index={index} content={content} />
             </div>
           </SwiperSlide>
@@ -113,12 +117,13 @@ function App() {
           <div className='text-3xl xl:text-6xl py-4 lg:py-12'>潤黑潤寶們想對你說的話</div>
             <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5 gap-3 container">
               {ListItem.map((item, index) => (
-                <MessageCard key={index} index={index} item={item} />
+                <MessageCard key={index} index={index} item={item} onCardClick={()=>{setLightboxOpen(true);setCurrentIndex(index)}} />
               ))}
             </div>
+            <LightboxSlide isActive={lightboxOpen} onClose={()=>setLightboxOpen(false)} index={currentIndex}  />
         </SwiperSlide>
         <SwiperSlide>
-          {/* <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'> */}
+          {/* <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'> */}
             {/* <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>潤黑潤寶的禮物</div> */}
             <Swiper
               effect={'coverflow'}
@@ -171,7 +176,7 @@ function App() {
           {/* </div> */}
         </SwiperSlide>
         <SwiperSlide>
-        <div className='h-lvh flex justify-center items-center text-6xl xl:text-8xl'>
+        <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
             <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>為你介紹 春魚優秀實況主</div>
           </div>
         </SwiperSlide>
