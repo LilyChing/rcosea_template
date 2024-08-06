@@ -28,7 +28,7 @@ function GiftSlide(props) {
             wrapper:"gift_image_wrapper",
             img: "gift_image"
           }}
-          style={{width:'auto', height: "80vh", objectFit: "contain" }}
+          style={{width:'auto', height: "80svh", objectFit: "contain" }}
           fill="true"
           />
         : one_gift.type == "image_group"?
@@ -45,7 +45,7 @@ function GiftSlide(props) {
                 wrapper:"gift_image_wrapper",
                 img: "gift_image"
               }}
-              style={{width:'auto', height: "80vh", objectFit: "contain" }}
+              style={{width:'auto', height: "80svh", objectFit: "contain" }}
               fill="true"
               />
             ))}

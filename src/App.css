@@ -19,7 +19,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 100svh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,7 +50,7 @@
   background-size: cover;
 }
 .icon{
-  height: 40px;
+  aspect-ratio: 1 / 1;
 }
 
 .swiper-slide{
@@ -72,14 +72,14 @@
 }
 
 .swiper-coverflow .swiper-wrapper{
-  padding: 10vh 0;
+  padding: 10svh 0;
 }
 
 .swiper-coverflow .swiper-slide{
-  height: 80vh;
+  height: 80svh;
 }
 .gift_image_wrapper{
-  max-height: 80vh !important;
+  max-height: 80svh !important;
   flex-grow: 1;
   object-fit: contain;
   justify-content: center;
