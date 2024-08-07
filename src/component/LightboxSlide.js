@@ -7,7 +7,7 @@ import Slideshow from "yet-another-react-lightbox/plugins/slideshow";
 import "yet-another-react-lightbox/styles.css";
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord, faPixiv } from '@fortawesome/free-brands-svg-icons'
 
 import ListItem from "../listItem"; 
 
@@ -42,7 +42,8 @@ function RenderDetailSlide({slide}) {
               {name: slide.Twitch_ID, icon: faTwitch}, 
               {name: slide.YouTube_ID, icon: faYoutube}, 
               {name: slide.IG_ID, icon: faInstagram},
-              {name: slide.Discord_ID, icon: faDiscord}
+              {name: slide.Discord_ID, icon: faDiscord},
+              {name: slide.Pixiv_ID, icon: faPixiv},
 
             ].map((social_media) => {
               return social_media.name ?
