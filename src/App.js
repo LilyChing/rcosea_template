@@ -13,7 +13,11 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import LightboxSlide from './component/LightboxSlide';
 import AudioPlayer from 'react-modern-audio-player';
-import BGM from './multimedia/lazy_ren_2024_2.wav'
+import useWebAnimations from '@wellyshen/use-web-animations';
+import BGM from './multimedia/lazy_ren_2024_2.wav';
+import hp from './multimedia/HB-01.png';
+import ren_only from './multimedia/Ren-deep-01.png';
+
 
 // export default function App() {
 //   return (
@@ -35,17 +39,7 @@ import BGM from './multimedia/lazy_ren_2024_2.wav'
 //   );
 // }
 
-function Slides (props){
-  if(props.content.img){
-    return <img src={props.content.img}/>
-  }else if (props.content.text){
-    return props.content.text;
-  }
-}
-
 function App() {
-  const LongRef = useRef();
-  // console.log(this.appRef.current)
 
   const [ currentIndex, setCurrentIndex ] = useState(0);
   const [ lightboxOpen, setLightboxOpen] = useState(false);
@@ -56,6 +50,15 @@ function App() {
   ];
 
   const introduct = {text:'為你介紹 春魚優秀實況主', img:null};
+
+  const { ref, getAnimation } = useWebAnimations<HTMLDivElement>({
+    keyframes: { transform: ["translateX(0)", "translateX(280px)"] },
+    animationOptions: {
+      duration: 250,
+      fill: "forwards",
+      easing: "cubic-bezier(0.175, 0.885, 0.32, 1.275)"
+    }
+  });
 
   const allowScroll = (swiper) => {
     var activeIndex = swiper.activeIndex;
@@ -108,15 +111,57 @@ function App() {
         onSlideChangeTransitionEnd={allowScroll}
         className="h-svh"
       >
-        {slide_item.map((content, index) => (
           <SwiperSlide>
-            <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
-              <Slides key={index} index={index} content={content} />
+            <div className='h-svh flex flex-col justify-between text-6xl xl:text-8xl main-cover' ref={ref}>
+              <AudioPlayer 
+                playList={[{
+                  name: 'lazy',
+                  writer: '306',
+                  src: BGM,
+                  id: 1,
+                }]} 
+                audioInitialState={{
+                  muted: false,
+                  volume: 0.2,
+                  repeatType: "ONE",
+                  curPlayId: 1,
+                }}
+                placement={{
+                  interface: {
+                    templateArea: {
+                      trackTimeCurrent: "row1-4",
+                      trackTimeDuration: "row1-5",
+                      progress: "row1-3",
+                      playButton: "row1-6",
+                      repeatType: "row1-7",
+                      volume: "row1-8",
+                    },
+                  },
+                  player: "top-right",
+                }}
+                rootContainerProps={{
+                  colorScheme: "light", 
+                  width: "fit-content"
+                }}
+                activeUI={{
+                  all: true,
+                  playList: false,
+                  trackTime: false,
+                  progress: false,
+                }}
+              />
+              <img src={hp} className='w-full lg:w-2/3 mt-16'/>
+              <img src={ren_only} className='w-2/3 lg:w-1/5 mb-4'/>
             </div>
           </SwiperSlide>
-        ))}
+          <SwiperSlide>
+            <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
+              慶生影片
+            {/* <iframe src={'https://clips.twitch.tv/embed?clip=BombasticAdorableOcelotMrDestructoid-97wjbk4TQx-p_R6q&parent='+window.location.hostname} parent="" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe> */}
+            </div>
+          </SwiperSlide>
         <SwiperSlide>
-          <div className='text-3xl xl:text-6xl py-4 lg:py-12'>潤黑潤寶們想對你說的話</div>
+          <div className='text-3xl xl:text-6xl py-4 lg:py-12'>想對你說的話...</div>
             <div className="columns-1 md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-5 gap-3 container">
               {ListItem.map((item, index) => (
                 <MessageCard key={index} index={index} item={item} onCardClick={()=>{setLightboxOpen(true);setCurrentIndex(index)}} />
@@ -180,42 +225,6 @@ function App() {
         <SwiperSlide>
         <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
             <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>為你介紹 春魚優秀實況主</div>
-            <AudioPlayer 
-              playList={[{
-                name: 'lazy',
-                writer: '306',
-                src: BGM,
-                id: 1,
-              }]} 
-              audioInitialState={{
-                muted: false,
-                volume: 0.2,
-                repeatType: "ONE",
-                curPlayId: 1,
-              }}
-              placement={{
-                interface: {
-                  templateArea: {
-                    trackTimeCurrent: "row1-4",
-                    trackTimeDuration: "row1-5",
-                    progress: "row1-3",
-                    playButton: "row1-6",
-                    repeatType: "row1-7",
-                    volume: "row1-8",
-                  },
-                },
-                player: "top-right",
-              }}
-              rootContainerProps={{
-                colorScheme: "dark", 
-                width: "fit-content"
-              }}
-              activeUI={{
-                all: true,
-                playList: false,
-                progress: "bar",
-              }}
-            />
           </div>
         </SwiperSlide>
       </Swiper>

@@ -49,6 +49,16 @@
   background-attachment: fixed;  
   background-size: cover;
 }
+
+.main-cover{
+  /* background-image: url('/public/img/assets/main_img.jpg'); */
+  background-image: url('/public/img/assets/2024_Ren_cut.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  object-position: top;
+}
+
 .icon{
   aspect-ratio: 1 / 1;
 }
@@ -114,4 +124,8 @@
   .yarl__navigation_prev, .yarl__navigation_next {
     top: 90svh !important;
   }
+}
+
+.rm-audio-player-provider{
+  /* --rm-audio-player-interface-container: #97dae1 !important; */
 }
