@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import ListItem from './listItem';
+import AudioPlayer from 'react-modern-audio-player';
+import BGM from './multimedia/lazy_ren_2024_2.wav'
 
 function GiftSlide(props) {
   const [currentIndex, setCurrentIndex] = useState(props.index);
@@ -61,6 +63,48 @@ function GiftSlide(props) {
           <>
             {one_gift.html}
           </>
+        : one_gift.type == "audio"?
+          <AudioPlayer 
+            playList={[{
+              name: one_gift.name,
+              writer: one_gift.writer,
+              src: BGM,
+              id: 1,
+            }]} 
+            audioInitialState={{
+              muted: false,
+              volume: 0.2,
+              repeatType: "ONE",
+              curPlayId: 1,
+            }}
+            placement={{
+              interface: {
+                templateArea: {
+                  artwork: "row1-2",
+                  playList: "row1-3",
+                  trackInfo: "row2-2",
+                  trackTimeCurrent: "row3-1",
+                  progress: "row3-2",
+                  trackTimeDuration: "row3-3",
+                  playButton: "row4-2",
+                  repeatType: "row4-1",
+                  volume: "row4-3"
+                },
+              },
+              player: "top-right",
+            }}
+            rootContainerProps={{
+              colorScheme: "dark", 
+              width: "100%"
+            }}
+            activeUI={{
+              all: true,
+              playList: false,
+              // prevNnext: false,
+              // trackTime: false,
+              progress: "bar",
+            }}
+          />
         : null
       ))}
       {

@@ -12,6 +12,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/bundle';
 import LightboxSlide from './component/LightboxSlide';
+import AudioPlayer from 'react-modern-audio-player';
+import BGM from './multimedia/lazy_ren_2024_2.wav'
 
 // export default function App() {
 //   return (
@@ -178,6 +180,42 @@ function App() {
         <SwiperSlide>
         <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
             <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>為你介紹 春魚優秀實況主</div>
+            <AudioPlayer 
+              playList={[{
+                name: 'lazy',
+                writer: '306',
+                src: BGM,
+                id: 1,
+              }]} 
+              audioInitialState={{
+                muted: false,
+                volume: 0.2,
+                repeatType: "ONE",
+                curPlayId: 1,
+              }}
+              placement={{
+                interface: {
+                  templateArea: {
+                    trackTimeCurrent: "row1-4",
+                    trackTimeDuration: "row1-5",
+                    progress: "row1-3",
+                    playButton: "row1-6",
+                    repeatType: "row1-7",
+                    volume: "row1-8",
+                  },
+                },
+                player: "top-right",
+              }}
+              rootContainerProps={{
+                colorScheme: "dark", 
+                width: "fit-content"
+              }}
+              activeUI={{
+                all: true,
+                playList: false,
+                progress: "bar",
+              }}
+            />
           </div>
         </SwiperSlide>
       </Swiper>

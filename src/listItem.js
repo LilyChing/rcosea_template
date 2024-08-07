@@ -939,6 +939,8 @@ let ListItem =
         "gift": [
                     {
                         type: "audio",
+                        name: 'lazy',
+                        writer: '306',
                         src: [ "https://drive.google.com/open?id=1FnNmzIM-n_y8fxhGkj5G3RB71j2dLhnH", "https://drive.google.com/open?id=13mz7JaMhFrPSu6BQtomHm4vOr8L7NDYG" ],
                     }
                 ],
