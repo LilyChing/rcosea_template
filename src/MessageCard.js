@@ -12,13 +12,13 @@ function MessageCard(props) {
     social_media = props.item.Twitch_ID;
     social_media_brand = faTwitch;
   }else if (props.item.YouTube_ID) {
-    social_media = '@'+props.item.YouTube_ID;
+    social_media = props.item.YouTube_ID;
     social_media_brand = faYoutube;
   }else if (props.item.Twitter_ID){
-    social_media = '@'+props.item.Twitter_ID;
+    social_media = props.item.Twitter_ID;
     social_media_brand = faTwitter;
   }else if (props.item.IG_ID) {
-    social_media = '@'+props.item.IG_ID;
+    social_media = props.item.IG_ID;
     social_media_brand = faInstagram;
   }else if (props.item.Discord_ID) {
     social_media = props.item.Discord_ID;
@@ -34,7 +34,7 @@ function MessageCard(props) {
         alt="icon"
         height={40}
         radius="full"
-        src={props.item.icon? props.item.icon : "https://cdn.7tv.app/emote/63fd1a91f20c15fd16768563/4x.webp"}
+        src={props.item.icon? props.item.icon : "https://cdn.7tv.app/emote/65c8dacb6546e24bd77812e9/4x.webp"}
         width={40}
         className="icon object-cover object-top"
       />
