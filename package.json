@@ -15,6 +15,7 @@
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-modern-audio-player": "^1.4.0-rc.2",
     "react-scripts": "5.0.1",
     "swiper": "^7.3.1",
     "web-vitals": "^2.1.4",
