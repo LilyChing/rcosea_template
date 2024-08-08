@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/rcosea_template/static/css/main.dfcccda5.css",
-    "main.js": "/rcosea_template/static/js/main.9eb826e4.js",
+    "main.css": "/rcosea_template/static/css/main.b12f3457.css",
+    "main.js": "/rcosea_template/static/js/main.a6f58557.js",
     "static/js/453.c66ae85d.chunk.js": "/rcosea_template/static/js/453.c66ae85d.chunk.js",
     "static/media/lazy_ren_2024_2.wav": "/rcosea_template/static/media/lazy_ren_2024_2.adb1de58f3528ea9d860.wav",
     "static/media/star_bg_small.jpg": "/rcosea_template/static/media/star_bg_small.9d52997bde4dbd176993.jpg",
     "static/media/2024_Ren_cut.jpg": "/rcosea_template/static/media/2024_Ren_cut.063cd611d3fc6ce4a409.jpg",
     "static/media/HB-01.png": "/rcosea_template/static/media/HB-01.82da05535080748d18a5.png",
     "index.html": "/rcosea_template/index.html",
-    "main.dfcccda5.css.map": "/rcosea_template/static/css/main.dfcccda5.css.map",
-    "main.9eb826e4.js.map": "/rcosea_template/static/js/main.9eb826e4.js.map",
+    "main.b12f3457.css.map": "/rcosea_template/static/css/main.b12f3457.css.map",
+    "main.a6f58557.js.map": "/rcosea_template/static/js/main.a6f58557.js.map",
     "453.c66ae85d.chunk.js.map": "/rcosea_template/static/js/453.c66ae85d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dfcccda5.css",
-    "static/js/main.9eb826e4.js"
+    "static/css/main.b12f3457.css",
+    "static/js/main.a6f58557.js"
   ]
 }
