@@ -4,6 +4,12 @@ import './App.css';
 import MessageCard from './MessageCard';
 import GiftSlide from './GiftSlide';
 import ListItem from './data/listItem';
+import ren_FPS_playlistExport from './data/ren_FPS_playlistExport.json';
+import ren_Gayge_playlistExport from './data/ren_Gayge_playlistExport.json';
+import ren_Okay_playlistExport from './data/ren_Okay_playlistExport.json';
+import ren_RP_playlistExport from './data/ren_RP_playlistExport.json';
+import ren_SF6_playlistExport from './data/ren_SF6_playlistExport.json';
+import ren_talk_playlistExport from './data/ren_talk_playlistExport.json';
 
 // Core modules imports are same as usual
 import { Navigation, Pagination, Mousewheel, EffectCoverflow, Autoplay } from 'swiper';
@@ -13,6 +19,7 @@ import 'swiper/css';
 import 'swiper/css/bundle';
 import LightboxSlide from './component/LightboxSlide';
 import AudioPlayer from 'react-modern-audio-player';
+import YouTube, { YouTubeProps } from 'react-youtube';
 import useWebAnimations from '@wellyshen/use-web-animations';
 import BGM from './multimedia/lazy_ren_2024_2.wav';
 import hp from './multimedia/HB-01.png';
@@ -40,6 +47,8 @@ import ren_only from './multimedia/Ren-deep-01.png';
 // }
 
 function App() {
+  let swiper_fps_ref = useRef();
+  let youtube_ref = useRef();
 
   const [ currentIndex, setCurrentIndex ] = useState(0);
   const [ lightboxOpen, setLightboxOpen] = useState(false);
@@ -50,6 +59,29 @@ function App() {
   ];
 
   const introduct = {text:'為你介紹 春魚優秀實況主', img:null};
+
+  const opts = {
+    height: '100%',
+    width: '100%',
+    playerVars: {
+      // https://developers.google.com/youtube/player_parameters
+      // autoplay: 1,
+    },
+  };
+  
+  const onPlayerReady = (event) => {
+    // access to player in all event handlers via event.target
+    swiper_fps_ref.current.autoplay.start();
+    // youtube_ref = event.target;
+    // console.log(swiper_fps_ref);
+    // event.target.pauseVideo();
+  }
+
+  const onPlayerStateChange = (e) => {
+    if(e.data == 1){
+      swiper_fps_ref.current.autoplay.pause();
+    }
+  }
 
   const { ref, getAnimation } = useWebAnimations<HTMLDivElement>({
     keyframes: { transform: ["translateX(0)", "translateX(280px)"] },
@@ -206,7 +238,7 @@ function App() {
                 progressbarOpposite: true
               }}
               modules={[Autoplay, EffectCoverflow, Pagination]}
-              className=""
+              className="h-svh gift_swiper_container"
               onClick={(swiper) => {
                 swiper.autoplay.pause();
               }}
@@ -223,9 +255,47 @@ function App() {
           {/* </div> */}
         </SwiperSlide>
         <SwiperSlide>
-        <div className='h-svh flex justify-center items-center text-6xl xl:text-8xl'>
-            <div className='text-3xl xl:text-6xl pb-4 lg:pb-12'>為你介紹 春魚優秀實況主</div>
-          </div>
+            <div className='h-svh flex justify-center items-center text-3xl xl:text-6xl py-4 lg:py-12'>為你介紹 春魚優秀實況主</div>
+            <div className='text-3xl xl:text-6xl py-4 lg:py-12'>冷酷槍男 精華</div>
+              <Swiper
+                ref={swiper_fps_ref}
+                effect={'coverflow'}
+                centeredSlides={true}
+                slidesPerView={1}
+                spaceBetween={100}
+                loop={true}
+                autoplay={{
+                  delay: 3000,
+                  disableOnInteraction: false,
+                }}
+                navigation={true}
+                coverflowEffect={{
+                  rotate: 0,
+                  stretch: 0,
+                  depth: 100,
+                  modifier: 1,
+                  slideShadows: true,
+                }}
+                breakpoints={{
+                  768: {
+                    slidesPerView: 2,
+                    spaceBetween: 0,
+                  },
+                  1024: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                  },
+                }}
+                modules={[Autoplay, EffectCoverflow, Navigation]}
+                className="playlist"
+                onSwiper={(swiper) => {swiper_fps_ref.current = swiper; swiper.autoplay.stop();}}
+              >
+                {ren_FPS_playlistExport.map((item, index) => (
+                  <SwiperSlide>
+                    <YouTube videoId={item.videoId} opts={opts} onReady={onPlayerReady} onStateChange={onPlayerStateChange} className="h-full" />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
         </SwiperSlide>
       </Swiper>
     </div>
