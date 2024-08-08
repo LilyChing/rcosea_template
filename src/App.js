@@ -3,7 +3,7 @@ import './App.css';
 // import './Output.css';
 import MessageCard from './MessageCard';
 import GiftSlide from './GiftSlide';
-import ListItem from './listItem';
+import ListItem from './data/listItem';
 
 // Core modules imports are same as usual
 import { Navigation, Pagination, Mousewheel, EffectCoverflow, Autoplay } from 'swiper';

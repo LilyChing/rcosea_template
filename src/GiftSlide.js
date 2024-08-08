@@ -4,7 +4,7 @@ import { Image } from "@nextui-org/react"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
-import ListItem from './listItem';
+import ListItem from './data/listItem';
 import AudioPlayer from 'react-modern-audio-player';
 import BGM from './multimedia/lazy_ren_2024_2.wav'
 

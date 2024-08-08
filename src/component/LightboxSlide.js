@@ -9,7 +9,7 @@ import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nex
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord, faPixiv } from '@fortawesome/free-brands-svg-icons'
 
-import ListItem from "../listItem"; 
+import ListItem from '../data/listItem';
 
 function RenderDetailSlide({slide}) {
   const index = ListItem.findIndex((el) => el === slide);

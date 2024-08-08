@@ -3,7 +3,6 @@ import { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faTwitch, faYoutube, faInstagram, faDiscord } from '@fortawesome/free-brands-svg-icons'
 import {Card, CardHeader, CardBody, CardFooter, Divider, Link, Image} from "@nextui-org/react"
-import ListItem from './listItem';
 
 function MessageCard(props) {
   let social_media;
