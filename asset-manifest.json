@@ -1,19 +1,34 @@
 {
   "files": {
-    "main.css": "/rcosea_template/static/css/main.b12f3457.css",
-    "main.js": "/rcosea_template/static/js/main.a6f58557.js",
+    "main.css": "/rcosea_template/static/css/main.8200bdbe.css",
+    "main.js": "/rcosea_template/static/js/main.bf9767b3.js",
     "static/js/453.c66ae85d.chunk.js": "/rcosea_template/static/js/453.c66ae85d.chunk.js",
     "static/media/lazy_ren_2024_2.wav": "/rcosea_template/static/media/lazy_ren_2024_2.adb1de58f3528ea9d860.wav",
     "static/media/star_bg_small.jpg": "/rcosea_template/static/media/star_bg_small.9d52997bde4dbd176993.jpg",
     "static/media/2024_Ren_cut.jpg": "/rcosea_template/static/media/2024_Ren_cut.063cd611d3fc6ce4a409.jpg",
+    "static/media/REN_info.jpg": "/rcosea_template/static/media/REN_info.709e275b30adbad738ca.jpg",
+    "static/media/renko_smile.png": "/rcosea_template/static/media/renko_smile.b265ad2c61737e6cb9a3.png",
+    "static/media/renko_clear.png": "/rcosea_template/static/media/renko_clear.0dfd19abdf64b9862f3c.png",
+    "static/media/rengo_stand.png": "/rcosea_template/static/media/rengo_stand.1c6823f6785ae158a200.png",
+    "static/media/about_ren_content.png": "/rcosea_template/static/media/about_ren_content.9626f96085d55ac7cab4.png",
     "static/media/HB-01.png": "/rcosea_template/static/media/HB-01.82da05535080748d18a5.png",
+    "static/media/about_ren_title.png": "/rcosea_template/static/media/about_ren_title.a4ece39379bc37c49faa.png",
+    "static/media/RC-title.png": "/rcosea_template/static/media/RC-title.0131ceb305832bb8592f.png",
+    "static/media/info-title.png": "/rcosea_template/static/media/info-title.72b0f95897906aa206a1.png",
+    "static/media/message-title.png": "/rcosea_template/static/media/message-title.4de0044d9534d34f7331.png",
+    "static/media/fps-title.png": "/rcosea_template/static/media/fps-title.b615ba174aa416077064.png",
+    "static/media/talk-title.png": "/rcosea_template/static/media/talk-title.bb6abba89789fc9bb3be.png",
+    "static/media/okay-title.png": "/rcosea_template/static/media/okay-title.188140d91aa039afadaf.png",
+    "static/media/GAYGE-title.png": "/rcosea_template/static/media/GAYGE-title.9b20dd5f1424f75b8f4b.png",
+    "static/media/SF6-title.png": "/rcosea_template/static/media/SF6-title.e923cb3cd2a6b8d0766c.png",
+    "static/media/video-title.png": "/rcosea_template/static/media/video-title.ab0a220c98aacebaf8e9.png",
     "index.html": "/rcosea_template/index.html",
-    "main.b12f3457.css.map": "/rcosea_template/static/css/main.b12f3457.css.map",
-    "main.a6f58557.js.map": "/rcosea_template/static/js/main.a6f58557.js.map",
+    "main.8200bdbe.css.map": "/rcosea_template/static/css/main.8200bdbe.css.map",
+    "main.bf9767b3.js.map": "/rcosea_template/static/js/main.bf9767b3.js.map",
     "453.c66ae85d.chunk.js.map": "/rcosea_template/static/js/453.c66ae85d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b12f3457.css",
-    "static/js/main.a6f58557.js"
+    "static/css/main.8200bdbe.css",
+    "static/js/main.bf9767b3.js"
   ]
 }
