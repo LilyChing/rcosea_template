@@ -135,8 +135,9 @@
 .rm-audio-player-provider{
   /* --rm-audio-player-interface-container: #97dae1 !important; */
 }
+
 .playlist{
-  height: 40svh !important;
+  height: 30svh !important;
 }
 
 .swiper-button-prev, .swiper-button-next{
@@ -154,4 +155,19 @@
 }
 .swiper-button-next{
   right: 0svw !important;
+}
+
+#Twitch{
+  background-color: #9146ff;
+  font-size: 1.5rem;
+}
+
+#YouTube{
+  background-color: #ff0000;
+  font-size: 1.5rem;
+}
+
+#Twitter{
+  background-color: #1d9bf0;
+  font-size: 1.5rem;
 }
