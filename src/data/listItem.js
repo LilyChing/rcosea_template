@@ -1138,7 +1138,7 @@ let ListItem =
     {
         "time": "2024/8/7 下午 6:21:39",
         "name": "Lily",
-        "message": "這個網頁就是我的生日禮物，生日快樂～\n感謝R主播陪伴我渡過分手、適應新工作的艱難時期，工作日下班領個安安已經成為日常了。\n看到主播⼀直很努力做新嘗試和突破，希望主播未來的直播生涯也⼀切順利，每天都過得幸福快樂!!",
+        "message": "這個網頁就是我送給你的生日禮物，生日快樂～\n感謝R主播陪伴我渡過分手、適應新工作的艱難時期，工作日下班領個安安已經成為日常了。\n看到主播⼀直很努力做新嘗試和突破，希望主播未來的直播生涯也⼀切順利，每天都過得幸福快樂!!",
         "icon": "https://drive.google.com/thumbnail?id=1V3z_Z7f1KFRczc3P3s9rOmv5awRbVYT1",
         "gift": [],
         "Twitter_ID": "lilyching1122",
@@ -1208,19 +1208,6 @@ let ListItem =
         "gift": [],
         "Twitter_ID": "",
         "Twitch_ID": "",
-        "YouTube_ID": "",
-        "IG_ID": "",
-        "Discord_ID": "",
-        "Pixiv_ID": ""
-    },
-    {
-        "time": "2024/8/7 下午 11:53:04",
-        "name": "向日葵",
-        "message": "主播生日快樂，謝謝主播那麼愛我們，我們也很愛你唷，希望主播可以對自己再好一點，因為你值得 ♡",
-        "icon": "",
-        "gift": [],
-        "Twitter_ID": "",
-        "Twitch_ID": "Smileeeeely",
         "YouTube_ID": "",
         "IG_ID": "",
         "Discord_ID": "",
