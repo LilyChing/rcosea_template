@@ -1000,7 +1000,12 @@ let ListItem =
         "name": "荷包蛋",
         "message": "Ren主播安安，生日快樂，祝福你今後的直播生涯也能順順利利.ᐟ.ᐟ🥳🎂🎂",
         "icon": "https://drive.google.com/thumbnail?id=1JvGfqu7L1xjPoTBEfFeltWn1z5Yw864j",
-        "gift": [],
+        "gift": [
+                    {
+                    type: "image",
+                    src: "https://lh3.googleusercontent.com/d/1w8-3XvdBfSZnQFga9945P2Eh7PowQjX1=s5000",
+                    }
+                ],
         "Twitter_ID": "bassde_25",
         "Twitch_ID": "",
         "YouTube_ID": "",
