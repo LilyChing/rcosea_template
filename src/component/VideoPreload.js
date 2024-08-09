@@ -15,6 +15,15 @@ function VideoPreload(props){
     },
   };
 
+  const onPlayerReady = (event) => {
+    // access to player in all event handlers via event.target
+    // swiper_fps_ref.current.autoplay.start();
+    // youtube_ref = event.target;
+    // console.log(swiper_fps_ref);
+    event.target.setVolume(20);
+    event.target.playVideo();
+  }
+
   return (
     <>
       {
@@ -24,13 +33,13 @@ function VideoPreload(props){
       {
         (isLoading || videoLoading) &&
         <div className='w-full h-full absolute' onClick={() => setVideoLoading(false)}>
-          <div className='w-full backdrop-blur-sm bg-black/50 text-lg absolute py-4'>{props.video.title}</div>
+          <div className='w-full backdrop-blur-sm bg-slate-500/50 text-lg absolute p-4'>{props.video.title}</div>
           <img src={props.video.thumbnailUrl} className='w-full h-full object-cover'/>
         </div>
       }
       {
         !videoLoading &&
-        <YouTube videoId={props.video.videoId} opts={opts} onReady={() => {setIsLoading(false)}} className="h-full" />
+        <YouTube videoId={props.video.videoId} opts={opts} onReady={(e) => {setIsLoading(false); onPlayerReady(e)}} className="h-full" />
       }
     </>
   )
