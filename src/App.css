@@ -44,19 +44,10 @@
 ::-webkit-scrollbar { display: none; }
 
 .bg-cover {
-  background-image: url('/public/img/assets/star_bg_small.jpg');
+  background-image: url('./multimedia/star_bg_small.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;  
   background-size: cover;
-}
-
-.main-cover{
-  /* background-image: url('/public/img/assets/main_img.jpg'); */
-  background-image: url('/public/img/assets/2024_Ren_cut.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
-  object-position: top;
 }
 
 .icon{
@@ -171,4 +162,8 @@
 #Twitter{
   background-color: #1d9bf0;
   font-size: 1.5rem;
+}
+
+.rm-audio-player-provider{
+    z-index: 10 !important;
 }

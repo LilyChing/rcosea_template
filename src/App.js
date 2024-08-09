@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react';
-import { Avatar, Link, Button} from "@nextui-org/react";
+import { Avatar, Link, Button, Spinner} from "@nextui-org/react";
 import './App.css';
 // import './Output.css';
+import { useOnLoadImages } from "./component/useOnLoadImages.tsx";
 import MessageCard from './MessageCard';
 import GiftSlide from './GiftSlide';
 import ListItem from './data/listItem';
@@ -46,6 +47,7 @@ import RP_title from './multimedia/RP-title.png';
 import SF6_title from './multimedia/SF6-title.png';
 import talk_title from './multimedia/talk-title.png';
 import video_title from './multimedia/video-title.png';
+import ren_main_img from './multimedia/0809ren_main.png'
 
 
 // export default function App() {
@@ -149,8 +151,18 @@ function App() {
     }
   };
 
+  const appRef = useRef(null);
+  const imagesLoaded = useOnLoadImages(appRef);
+
   return (
-    <div className="App bg-cover">
+    <div className="App bg-cover" ref={appRef}>
+      { 
+        !imagesLoaded &&
+        <div className='w-full h-full absolute'>
+          <Spinner  color="default" className='w-full h-full z-10' size="lg" style={{'background-color': '#97dae1'}}/>
+        </div>
+      }
+      
       <Swiper
         modules={[Pagination, Mousewheel]}
         direction={'vertical'}
@@ -166,10 +178,10 @@ function App() {
         onSlideChange={(swiper) => { swiper.mousewheel.enable(); swiper.allowTouchMove = true}}
         // onSwiper={(swiper) => console.log(swiper)}
         onSlideChangeTransitionEnd={allowScroll}
-        className="h-svh"
+        className="h-svh all_swiper"
       >
           <SwiperSlide>
-            <div className='h-full flex flex-col justify-between text-6xl xl:text-8xl main-cover' ref={ref}>
+            <div className='h-full flex flex-col justify-end text-6xl xl:text-8xl' ref={ref}>
               <AudioPlayer 
                 playList={[{
                   name: 'lazy',
@@ -207,8 +219,8 @@ function App() {
                   progress: false,
                 }}
               />
-              <img src={hp} className='w-full lg:w-2/3 mt-16'/>
-              <img src={ren_only} className='w-2/3 lg:w-1/5 mb-4'/>
+              <img src={hp} className='w-full lg:w-2/3 mb-4 z-10'/>
+              <img src={ren_main_img} className='h-full w-full absolute object-cover object-right'/>
             </div>
           </SwiperSlide>
           <SwiperSlide>
