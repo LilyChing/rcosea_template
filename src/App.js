@@ -162,13 +162,14 @@ function App() {
         speed={500}
         preloadImages={false}
         lazy={true}
+        touchStartPreventDefault={false}
         onSlideChange={(swiper) => { swiper.mousewheel.enable(); swiper.allowTouchMove = true}}
         // onSwiper={(swiper) => console.log(swiper)}
         onSlideChangeTransitionEnd={allowScroll}
         className="h-svh"
       >
           <SwiperSlide>
-            <div className='h-svh flex flex-col justify-between text-6xl xl:text-8xl main-cover' ref={ref}>
+            <div className='h-full flex flex-col justify-between text-6xl xl:text-8xl main-cover' ref={ref}>
               <AudioPlayer 
                 playList={[{
                   name: 'lazy',
@@ -211,7 +212,7 @@ function App() {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className='h-svh flex flex-col'>
+            <div className='h-full flex flex-col'>
               <div className='w-svw flex justify-center py-4 lg:py-12'>
                 <img src={ video_title } width="50%" />
               </div>
