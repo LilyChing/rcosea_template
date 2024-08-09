@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ren_birthday_2024/static/css/main.098f7d40.css",
-    "main.js": "/ren_birthday_2024/static/js/main.0e6546db.js",
+    "main.css": "/ren_birthday_2024/static/css/main.92a6eee2.css",
+    "main.js": "/ren_birthday_2024/static/js/main.da8faef5.js",
     "static/js/453.c66ae85d.chunk.js": "/ren_birthday_2024/static/js/453.c66ae85d.chunk.js",
     "static/media/lazy_ren_2024_2.wav": "/ren_birthday_2024/static/media/lazy_ren_2024_2.adb1de58f3528ea9d860.wav",
     "static/media/star_bg_small.jpg": "/ren_birthday_2024/static/media/star_bg_small.9d52997bde4dbd176993.jpg",
@@ -23,12 +23,12 @@
     "static/media/SF6-title.png": "/ren_birthday_2024/static/media/SF6-title.e923cb3cd2a6b8d0766c.png",
     "static/media/video-title.png": "/ren_birthday_2024/static/media/video-title.ab0a220c98aacebaf8e9.png",
     "index.html": "/ren_birthday_2024/index.html",
-    "main.098f7d40.css.map": "/ren_birthday_2024/static/css/main.098f7d40.css.map",
-    "main.0e6546db.js.map": "/ren_birthday_2024/static/js/main.0e6546db.js.map",
+    "main.92a6eee2.css.map": "/ren_birthday_2024/static/css/main.92a6eee2.css.map",
+    "main.da8faef5.js.map": "/ren_birthday_2024/static/js/main.da8faef5.js.map",
     "453.c66ae85d.chunk.js.map": "/ren_birthday_2024/static/js/453.c66ae85d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.098f7d40.css",
-    "static/js/main.0e6546db.js"
+    "static/css/main.92a6eee2.css",
+    "static/js/main.da8faef5.js"
   ]
 }
