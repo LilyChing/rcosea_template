@@ -308,7 +308,7 @@ function App() {
                 <img src={renko_clear} />
               </div>
             </div>
-            <div className='h-svh flex items-center'>
+            <div className='h-lvh flex items-center'>
               <div className='flex w-svw items-center backdrop-blur-sm bg-white/20'>
                 <div className='container flex items-center gap-16'>
                   <div className='w-full flex flex-col'>
