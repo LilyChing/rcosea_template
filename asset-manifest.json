@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ren_birthday_2024/static/css/main.c82ce7d2.css",
-    "main.js": "/ren_birthday_2024/static/js/main.4d54ce50.js",
+    "main.css": "/ren_birthday_2024/static/css/main.f773fe71.css",
+    "main.js": "/ren_birthday_2024/static/js/main.e527c268.js",
     "static/js/453.5778d0e3.chunk.js": "/ren_birthday_2024/static/js/453.5778d0e3.chunk.js",
     "static/media/lazy_ren_2024_2.wav": "/ren_birthday_2024/static/media/lazy_ren_2024_2.adb1de58f3528ea9d860.wav",
     "static/media/0809ren_main.png": "/ren_birthday_2024/static/media/0809ren_main.34a0e1434ae4333dae21.png",
@@ -11,7 +11,7 @@
     "static/media/renko_clear.png": "/ren_birthday_2024/static/media/renko_clear.0dfd19abdf64b9862f3c.png",
     "static/media/rengo_stand.png": "/ren_birthday_2024/static/media/rengo_stand.1c6823f6785ae158a200.png",
     "static/media/about_ren_content.png": "/ren_birthday_2024/static/media/about_ren_content.9626f96085d55ac7cab4.png",
-    "static/media/HB-01.png": "/ren_birthday_2024/static/media/HB-01.82da05535080748d18a5.png",
+    "static/media/HB-01.png": "/ren_birthday_2024/static/media/HB-01.822fd07ded92217ec809.png",
     "static/media/about_ren_title.png": "/ren_birthday_2024/static/media/about_ren_title.a4ece39379bc37c49faa.png",
     "static/media/RC-title.png": "/ren_birthday_2024/static/media/RC-title.0131ceb305832bb8592f.png",
     "static/media/info-title.png": "/ren_birthday_2024/static/media/info-title.72b0f95897906aa206a1.png",
@@ -23,12 +23,12 @@
     "static/media/SF6-title.png": "/ren_birthday_2024/static/media/SF6-title.e923cb3cd2a6b8d0766c.png",
     "static/media/video-title.png": "/ren_birthday_2024/static/media/video-title.ab0a220c98aacebaf8e9.png",
     "index.html": "/ren_birthday_2024/index.html",
-    "main.c82ce7d2.css.map": "/ren_birthday_2024/static/css/main.c82ce7d2.css.map",
-    "main.4d54ce50.js.map": "/ren_birthday_2024/static/js/main.4d54ce50.js.map",
+    "main.f773fe71.css.map": "/ren_birthday_2024/static/css/main.f773fe71.css.map",
+    "main.e527c268.js.map": "/ren_birthday_2024/static/js/main.e527c268.js.map",
     "453.5778d0e3.chunk.js.map": "/ren_birthday_2024/static/js/453.5778d0e3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c82ce7d2.css",
-    "static/js/main.4d54ce50.js"
+    "static/css/main.f773fe71.css",
+    "static/js/main.e527c268.js"
   ]
 }
