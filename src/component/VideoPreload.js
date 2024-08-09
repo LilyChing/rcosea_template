@@ -28,7 +28,9 @@ function VideoPreload(props){
     <>
       {
         isLoading && !videoLoading && 
-        <Spinner className='relative w-full h-full'/>
+        <div className='w-full h-full absolute'>
+          <Spinner className='w-full h-full z-10 bg-white/30'/>
+        </div>
       }
       {
         (isLoading || videoLoading) &&

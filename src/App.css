@@ -138,6 +138,7 @@
 
 .playlist{
   height: 30svh !important;
+  width: 90svw !important;
 }
 
 .swiper-button-prev, .swiper-button-next{
