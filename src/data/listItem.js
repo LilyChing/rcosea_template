@@ -618,6 +618,7 @@ let ListItem =
         "gift": [
                     {
                         type: "video",
+                        thumbnail: 'https://lh3.googleusercontent.com/d/1i70F8XSp9wmSt1So_g6HTHvTMo0o92z2=s5000',
                         src: "https://drive.google.com/file/d/1i70F8XSp9wmSt1So_g6HTHvTMo0o92z2/preview",
                     }
                 ],
