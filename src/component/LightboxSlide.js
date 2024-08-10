@@ -34,8 +34,8 @@ function RenderDetailSlide({slide}) {
         : null
       }
       <div className="w-full flex flex-col text-center">
-        <p className="text-xl break-all pb-2">{slide.name}</p>
-        <div className="flex flex-wrap gap-2 justify-evenly">
+        <p className="text-2xl break-all pb-2">{slide.name}</p>
+        <div className="flex flex-wrap gap-4 justify-evenly">
           {
             [
               {name: slide.Twitter_ID, icon: faTwitter},
@@ -47,7 +47,7 @@ function RenderDetailSlide({slide}) {
 
             ].map((social_media) => {
               return social_media.name ?
-              <div className="flex items-center gap-1">
+              <div className="flex items-center gap-2">
                 <FontAwesomeIcon icon={social_media.icon} size="sm" />
                 <p className="text-small break-all">{social_media.name}</p>
               </div>
@@ -59,7 +59,7 @@ function RenderDetailSlide({slide}) {
     </CardHeader>
     <Divider/>
     <CardBody>
-      <p className="whitespace-pre-line">{slide.message}</p>
+      <p className="text-lg whitespace-pre-line">{slide.message}</p>
     </CardBody>
   </Card>
   ): null
