@@ -324,11 +324,11 @@ function App() {
                           { name:'YouTube', icon: faYoutube, href:"https://www.youtube.com/@Ren0809"},
                           { name:'Twitter', icon: faTwitter, href:"https://x.com/Ren0809k_TV"},
                         ].map(({ name, icon, href }) => (
-                          <div className='flex flex-col w-fit'>
-                            <Button isIconOnly className="w-28 h-28 rounded-full" id={name} href={href}  as={Link} isExternal>
-                              <FontAwesomeIcon icon={icon} size="2xl" />
+                          <div className='flex flex-col justify-center items-center w-fit'>
+                            <Button isIconOnly className="w-12 lg:w-28 h-12 lg:h-28 rounded-full" id={name} href={href}  as={Link} isExternal>
+                              <FontAwesomeIcon icon={icon} className='text-sm lg:text-4xl'/>
                             </Button>
-                            <p className='text-xl mt-2'>{name}</p>
+                            <p className='text-sm lg:text-xl mt-2'>{name}</p>
                           </div>
                         ))
                       }
