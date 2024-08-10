@@ -34,7 +34,7 @@ function VideoPreload(props){
       }
       {
         (isLoading || videoLoading) &&
-        <div className='w-full h-full absolute' onClick={() => setVideoLoading(false)}>
+        <div className='w-full h-full absolute cursor-pointer' onClick={() => setVideoLoading(false)}>
           <div className='w-full backdrop-blur-sm bg-slate-500/50 text-lg absolute p-4'>{props.video.title}</div>
           <img src={props.video.thumbnailUrl} className='w-full h-full object-cover'/>
         </div>
