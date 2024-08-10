@@ -1321,6 +1321,32 @@ let ListItem =
         "IG_ID": "",
         "Discord_ID": "",
         "Pixiv_ID": ""
-    }
+    },
+    {
+        "time": "2024/8/9 上午 2:28:36",
+        "name": "牛奶麥片然後放碗",
+        "message": "謝謝主播帶來的實況內容!最喜歡R熙語音了!",
+        "icon": "https://drive.google.com/thumbnail?id=1UPvdtWvQ73iVb1muB-pTW2SIghHmUe4x",
+        "gift": [],
+        "Twitter_ID": "Lansprotea",
+        "Twitch_ID": "Lansprotea",
+        "YouTube_ID": "lanlan22",
+        "IG_ID": "",
+        "Discord_ID": "",
+        "Pixiv_ID": ""
+    },
+    {
+        "time": "2024/8/10 上午 12:21:26",
+        "name": "茶米",
+        "message": "從2021年就追隨了，那時的主播只玩塔，我也只有打塔的那段時間才會看看台，很開心主播現在轉型成功，從以前的冷酷槍男變成全方位的實況主了，有更多的內容可以看，聊天室的氣氛也非常的好，祝Ren0809k生日快樂，開台辛苦啦!",
+        "icon": "https://drive.google.com/thumbnail?id=1k1tOFFP7tZFkUYIgi_MGj0YfUjCgBlDr",
+        "gift": [],
+        "Twitter_ID": "",
+        "Twitch_ID": "jakey1007",
+        "YouTube_ID": "",
+        "IG_ID": "",
+        "Discord_ID": "",
+        "Pixiv_ID": ""
+    },
 ]
 export default ListItem;
