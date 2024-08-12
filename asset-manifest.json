@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ren_birthday_2024/static/css/main.10290201.css",
-    "main.js": "/ren_birthday_2024/static/js/main.22d580a8.js",
+    "main.js": "/ren_birthday_2024/static/js/main.c43e0127.js",
     "static/js/453.5778d0e3.chunk.js": "/ren_birthday_2024/static/js/453.5778d0e3.chunk.js",
     "static/media/lazy_ren_2024_2.wav": "/ren_birthday_2024/static/media/lazy_ren_2024_2.adb1de58f3528ea9d860.wav",
     "static/media/0809ren_main.png": "/ren_birthday_2024/static/media/0809ren_main.34a0e1434ae4333dae21.png",
@@ -24,11 +24,11 @@
     "static/media/video-title.png": "/ren_birthday_2024/static/media/video-title.ab0a220c98aacebaf8e9.png",
     "index.html": "/ren_birthday_2024/index.html",
     "main.10290201.css.map": "/ren_birthday_2024/static/css/main.10290201.css.map",
-    "main.22d580a8.js.map": "/ren_birthday_2024/static/js/main.22d580a8.js.map",
+    "main.c43e0127.js.map": "/ren_birthday_2024/static/js/main.c43e0127.js.map",
     "453.5778d0e3.chunk.js.map": "/ren_birthday_2024/static/js/453.5778d0e3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.10290201.css",
-    "static/js/main.22d580a8.js"
+    "static/js/main.c43e0127.js"
   ]
 }
